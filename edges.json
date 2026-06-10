@@ -1,0 +1,7219 @@
+{
+  "dataset": "cricket-knowledge-graph-sample",
+  "scope": "Single-franchise SAMPLE (Royal Challengers Bengaluru) — IPL 2026 + IPL-career matchup edges",
+  "note": "Sample teaser. The full graph is available via the CricketStudio API (gated). No external-ID crosswalk, no derivation method, no match/fixture identifiers.",
+  "publisher": "CricketStudio",
+  "homepage": "https://players.cricketstudio.ai",
+  "license": "CC BY 4.0",
+  "count": 777,
+  "edges": [
+    {
+      "src": "abhinandan-singh",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "dismissed_by",
+      "dst": "cameron-green",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "dismissed_by",
+      "dst": "harshal-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "dismissed_by",
+      "dst": "jason-holder",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "dismissed_by",
+      "dst": "kagiso-rabada",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "dismissed_by",
+      "dst": "navdeep-saini",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "ad-russell",
+      "props": {
+        "deliveries": 8,
+        "runs": 5,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 8,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "cameron-green",
+      "props": {
+        "deliveries": 12,
+        "runs": 11,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "dj-bravo",
+      "props": {
+        "deliveries": 19,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 8,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "jason-holder",
+      "props": {
+        "deliveries": 13,
+        "runs": 13,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 8,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "josh-hazlewood",
+      "props": {
+        "deliveries": 5,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "kagiso-rabada",
+      "props": {
+        "deliveries": 6,
+        "runs": 1,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "lungi-ngidi",
+      "props": {
+        "deliveries": 8,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 5,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "navdeep-saini",
+      "props": {
+        "deliveries": 5,
+        "runs": 2,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 8,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 8,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "deliveries": 8,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "sunil-narine",
+      "props": {
+        "deliveries": 10,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "yash-dayal",
+      "props": {
+        "deliveries": 6,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 7,
+        "runs": 4,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "bhuvneshwar-kumar",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "anrich-nortje",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "avesh-khan",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "axar-patel",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "deepak-chahar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "eshan-malinga",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "hardik-pandya",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "harpreet-brar",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "harsh-dubey",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "harshal-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "ishant-sharma",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "jamie-overton",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "jason-holder",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "jofra-archer",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "josh-hazlewood",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "kagiso-rabada",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "kartik-tyagi",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "lockie-ferguson",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "mc-henriques",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "mitchell-santner",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-siraj",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "noor-ahmad",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "prasidh-krishna",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "prince-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "rahul-tewatia",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "rashid-khan",
+      "props": {
+        "dismissals": 5
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "sandeep-sharma",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "shardul-thakur",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "sunil-narine",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "trent-boult",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "dismissed_by",
+      "dst": "umran-malik",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "abhishek-sharma",
+      "props": {
+        "deliveries": 5,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "anrich-nortje",
+      "props": {
+        "deliveries": 11,
+        "runs": 17,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 40,
+        "runs": 64,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 10,
+        "runs": 3,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 30,
+        "runs": 49,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "deliveries": 23,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "david-payne",
+      "props": {
+        "deliveries": 5,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "deepak-chahar",
+      "props": {
+        "deliveries": 42,
+        "runs": 72,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 10,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "dj-bravo",
+      "props": {
+        "deliveries": 12,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "dr-sams",
+      "props": {
+        "deliveries": 15,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "dushmantha-chameera",
+      "props": {
+        "deliveries": 25,
+        "runs": 36,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "eshan-malinga",
+      "props": {
+        "deliveries": 7,
+        "runs": 17,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "gj-maxwell",
+      "props": {
+        "deliveries": 16,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "hardik-pandya",
+      "props": {
+        "deliveries": 27,
+        "runs": 17,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "harpreet-brar",
+      "props": {
+        "deliveries": 24,
+        "runs": 27,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "harsh-dubey",
+      "props": {
+        "deliveries": 7,
+        "runs": 17,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 15,
+        "runs": 18,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "ishant-sharma",
+      "props": {
+        "deliveries": 13,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "j-little",
+      "props": {
+        "deliveries": 7,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "jamie-overton",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "jason-holder",
+      "props": {
+        "deliveries": 45,
+        "runs": 52,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 25,
+        "runs": 17,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 17,
+        "runs": 31,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "jofra-archer",
+      "props": {
+        "deliveries": 28,
+        "runs": 32,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "josh-hazlewood",
+      "props": {
+        "deliveries": 16,
+        "runs": 23,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "kagiso-rabada",
+      "props": {
+        "deliveries": 46,
+        "runs": 91,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "kartik-tyagi",
+      "props": {
+        "deliveries": 15,
+        "runs": 23,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 6,
+        "runs": 1,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "krunal-pandya",
+      "props": {
+        "deliveries": 20,
+        "runs": 33,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 16,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "kyle-jamieson",
+      "props": {
+        "deliveries": 6,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "lockie-ferguson",
+      "props": {
+        "deliveries": 17,
+        "runs": 28,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "marco-jansen",
+      "props": {
+        "deliveries": 5,
+        "runs": 2,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "marcus-stoinis",
+      "props": {
+        "deliveries": 15,
+        "runs": 39,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "deliveries": 16,
+        "runs": 19,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "mayank-yadav",
+      "props": {
+        "deliveries": 5,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "mc-henriques",
+      "props": {
+        "deliveries": 5,
+        "runs": 2,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "mitchell-marsh",
+      "props": {
+        "deliveries": 10,
+        "runs": 22,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "mitchell-santner",
+      "props": {
+        "deliveries": 7,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 26,
+        "runs": 27,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 35,
+        "runs": 46,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "deliveries": 31,
+        "runs": 48,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "naveen-ul-haq",
+      "props": {
+        "deliveries": 7,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 15,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 29,
+        "runs": 37,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "prasidh-krishna",
+      "props": {
+        "deliveries": 24,
+        "runs": 46,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "prince-yadav",
+      "props": {
+        "deliveries": 10,
+        "runs": 19,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "rahul-chahar",
+      "props": {
+        "deliveries": 43,
+        "runs": 61,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "rahul-tewatia",
+      "props": {
+        "deliveries": 28,
+        "runs": 36,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 44,
+        "runs": 40,
+        "dismissals": 5
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 26,
+        "runs": 34,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "deliveries": 33,
+        "runs": 43,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "riyan-parag",
+      "props": {
+        "deliveries": 16,
+        "runs": 32,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "romario-shepherd",
+      "props": {
+        "deliveries": 10,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "sai-kishore",
+      "props": {
+        "deliveries": 11,
+        "runs": 24,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "sakib-hussain",
+      "props": {
+        "deliveries": 7,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 24,
+        "runs": 26,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "shakib-al-hasan",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "shardul-thakur",
+      "props": {
+        "deliveries": 30,
+        "runs": 25,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "shivam-dube",
+      "props": {
+        "deliveries": 6,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "shivam-mavi",
+      "props": {
+        "deliveries": 10,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "shreyas-gopal",
+      "props": {
+        "deliveries": 25,
+        "runs": 32,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "sikandar-raza",
+      "props": {
+        "deliveries": 7,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "sunil-narine",
+      "props": {
+        "deliveries": 22,
+        "runs": 27,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 17,
+        "runs": 34,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 24,
+        "runs": 29,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "tushar-deshpande",
+      "props": {
+        "deliveries": 19,
+        "runs": 42,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "umran-malik",
+      "props": {
+        "deliveries": 24,
+        "runs": 16,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "vijaykumar-vyshak",
+      "props": {
+        "deliveries": 9,
+        "runs": 22,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "xavier-bartlett",
+      "props": {
+        "deliveries": 9,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 10,
+        "runs": 25,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "devdutt-padikkal",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "dismissed_by",
+      "dst": "kyle-jamieson",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-shami",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-siraj",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "am-ghazanfar",
+      "props": {
+        "deliveries": 5,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "anshul-kamboj",
+      "props": {
+        "deliveries": 7,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 7,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 10,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "kyle-jamieson",
+      "props": {
+        "deliveries": 10,
+        "runs": 19,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 5,
+        "runs": 4,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 12,
+        "runs": 14,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 6,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "saurabh-dubey",
+      "props": {
+        "deliveries": 10,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "faced",
+      "dst": "will-jacks",
+      "props": {
+        "deliveries": 5,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jacob-bethell",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "jacob-duffy",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "akash-madhwal",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "anrich-nortje",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "avesh-khan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "axar-patel",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "corbin-bosch",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "harshal-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "lungi-ngidi",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "marco-jansen",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "mayank-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-siraj",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "navdeep-saini",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "nitish-kumar-reddy",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "noor-ahmad",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "rashid-khan",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "sai-kishore",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "shardul-thakur",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "trent-boult",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "tushar-deshpande",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "umran-malik",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "vijaykumar-vyshak",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "a-zampa",
+      "props": {
+        "deliveries": 6,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "akash-madhwal",
+      "props": {
+        "deliveries": 7,
+        "runs": 9,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "anrich-nortje",
+      "props": {
+        "deliveries": 9,
+        "runs": 6,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "arshad-khan",
+      "props": {
+        "deliveries": 7,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 17,
+        "runs": 19,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 19,
+        "runs": 15,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "corbin-bosch",
+      "props": {
+        "deliveries": 7,
+        "runs": 6,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 9,
+        "runs": 30,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "hardik-pandya",
+      "props": {
+        "deliveries": 14,
+        "runs": 23,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 10,
+        "runs": 9,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "ishant-sharma",
+      "props": {
+        "deliveries": 13,
+        "runs": 27,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 21,
+        "runs": 28,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 15,
+        "runs": 37,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "jofra-archer",
+      "props": {
+        "deliveries": 14,
+        "runs": 23,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 8,
+        "runs": 16,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "kuldeep-sen",
+      "props": {
+        "deliveries": 12,
+        "runs": 24,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 31,
+        "runs": 33,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "lungi-ngidi",
+      "props": {
+        "deliveries": 6,
+        "runs": 7,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "marco-jansen",
+      "props": {
+        "deliveries": 13,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "deliveries": 9,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "mayank-yadav",
+      "props": {
+        "deliveries": 5,
+        "runs": 1,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 5,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 13,
+        "runs": 17,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "mukesh-choudhary",
+      "props": {
+        "deliveries": 5,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "mukesh-kumar",
+      "props": {
+        "deliveries": 5,
+        "runs": 2,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "navdeep-saini",
+      "props": {
+        "deliveries": 7,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "nitish-kumar-reddy",
+      "props": {
+        "deliveries": 10,
+        "runs": 27,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 9,
+        "runs": 12,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 6,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "prasidh-krishna",
+      "props": {
+        "deliveries": 19,
+        "runs": 23,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 31,
+        "runs": 45,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 6,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "deliveries": 9,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "sai-kishore",
+      "props": {
+        "deliveries": 8,
+        "runs": 12,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 11,
+        "runs": 26,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "shahbaz-ahmed",
+      "props": {
+        "deliveries": 5,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "shardul-thakur",
+      "props": {
+        "deliveries": 6,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "sunil-narine",
+      "props": {
+        "deliveries": 9,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "suyash-sharma",
+      "props": {
+        "deliveries": 9,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 10,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 16,
+        "runs": 36,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "tushar-deshpande",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "umran-malik",
+      "props": {
+        "deliveries": 5,
+        "runs": 9,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "vijaykumar-vyshak",
+      "props": {
+        "deliveries": 6,
+        "runs": 11,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 35,
+        "runs": 41,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "jitesh-sharma",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "josh-hazlewood",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 5,
+        "runs": 2,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "josh-hazlewood",
+      "predicate": "faced",
+      "dst": "umran-malik",
+      "props": {
+        "deliveries": 5,
+        "runs": 0,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "josh-hazlewood",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "ad-russell",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "am-ghazanfar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "gj-maxwell",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "harshal-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "jofra-archer",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "kagiso-rabada",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "lockie-ferguson",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "lungi-ngidi",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "marcus-stoinis",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-shami",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-siraj",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "mukesh-kumar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "noor-ahmad",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "pat-cummins",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "rashid-khan",
+      "props": {
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "shakib-al-hasan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "shardul-thakur",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "sunil-narine",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "trent-boult",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "umran-malik",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "vipraj-nigam",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "a-zampa",
+      "props": {
+        "deliveries": 8,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "ad-russell",
+      "props": {
+        "deliveries": 28,
+        "runs": 39,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "aiden-markram",
+      "props": {
+        "deliveries": 5,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "aj-tye",
+      "props": {
+        "deliveries": 10,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "akash-madhwal",
+      "props": {
+        "deliveries": 8,
+        "runs": 5,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "am-ghazanfar",
+      "props": {
+        "deliveries": 13,
+        "runs": 28,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "anrich-nortje",
+      "props": {
+        "deliveries": 11,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 11,
+        "runs": 16,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 7,
+        "runs": 5,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 30,
+        "runs": 35,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "deliveries": 17,
+        "runs": 21,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "cameron-green",
+      "props": {
+        "deliveries": 7,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "corbin-bosch",
+      "props": {
+        "deliveries": 11,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "dj-bravo",
+      "props": {
+        "deliveries": 22,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "dushmantha-chameera",
+      "props": {
+        "deliveries": 9,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "gj-maxwell",
+      "props": {
+        "deliveries": 19,
+        "runs": 14,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "hardik-pandya",
+      "props": {
+        "deliveries": 5,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 34,
+        "runs": 51,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "ishant-sharma",
+      "props": {
+        "deliveries": 8,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "jason-holder",
+      "props": {
+        "deliveries": 9,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 28,
+        "runs": 42,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "jofra-archer",
+      "props": {
+        "deliveries": 14,
+        "runs": 8,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "kagiso-rabada",
+      "props": {
+        "deliveries": 30,
+        "runs": 43,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "kma-paul",
+      "props": {
+        "deliveries": 7,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 35,
+        "runs": 36,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "kulwant-khejroliya",
+      "props": {
+        "deliveries": 6,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "lockie-ferguson",
+      "props": {
+        "deliveries": 13,
+        "runs": 11,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "lungi-ngidi",
+      "props": {
+        "deliveries": 12,
+        "runs": 26,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "manav-suthar",
+      "props": {
+        "deliveries": 7,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "marcus-stoinis",
+      "props": {
+        "deliveries": 21,
+        "runs": 51,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "mitchell-santner",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "mitchell-starc",
+      "props": {
+        "deliveries": 7,
+        "runs": 3,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 22,
+        "runs": 37,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 30,
+        "runs": 31,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "mukesh-kumar",
+      "props": {
+        "deliveries": 25,
+        "runs": 43,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "deliveries": 23,
+        "runs": 36,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 7,
+        "runs": 4,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "oc-mccoy",
+      "props": {
+        "deliveries": 6,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 15,
+        "runs": 13,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "prasidh-krishna",
+      "props": {
+        "deliveries": 26,
+        "runs": 41,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "rahul-tewatia",
+      "props": {
+        "deliveries": 21,
+        "runs": 28,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "raj-angad-bawa",
+      "props": {
+        "deliveries": 7,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 41,
+        "runs": 40,
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 8,
+        "runs": 3,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "deliveries": 13,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "sakib-hussain",
+      "props": {
+        "deliveries": 5,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 14,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "shahbaz-ahmed",
+      "props": {
+        "deliveries": 18,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "shakib-al-hasan",
+      "props": {
+        "deliveries": 11,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "shardul-thakur",
+      "props": {
+        "deliveries": 25,
+        "runs": 32,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "shivam-mavi",
+      "props": {
+        "deliveries": 5,
+        "runs": 2,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "sikandar-raza",
+      "props": {
+        "deliveries": 5,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "sunil-narine",
+      "props": {
+        "deliveries": 33,
+        "runs": 31,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 15,
+        "runs": 17,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 13,
+        "runs": 14,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "umran-malik",
+      "props": {
+        "deliveries": 6,
+        "runs": 9,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "vipraj-nigam",
+      "props": {
+        "deliveries": 7,
+        "runs": 6,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "washington-sundar",
+      "props": {
+        "deliveries": 10,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "will-jacks",
+      "props": {
+        "deliveries": 7,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 40,
+        "runs": 54,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "krunal-pandya",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "avesh-khan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "axar-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "deepak-chahar",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "harpreet-brar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "jofra-archer",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "kyle-jamieson",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "mayank-markande",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-shami",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-siraj",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "naveen-ul-haq",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "noor-ahmad",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "nuwan-thushara",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "pat-cummins",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "trent-boult",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "dismissed_by",
+      "dst": "tushar-deshpande",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "akeal-hosein",
+      "props": {
+        "deliveries": 10,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "anshul-kamboj",
+      "props": {
+        "deliveries": 7,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 28,
+        "runs": 37,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "auqib-nabi",
+      "props": {
+        "deliveries": 12,
+        "runs": 26,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 7,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 11,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "azmatullah-omarzai",
+      "props": {
+        "deliveries": 6,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "deliveries": 14,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "deepak-chahar",
+      "props": {
+        "deliveries": 9,
+        "runs": 7,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 5,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "eshan-malinga",
+      "props": {
+        "deliveries": 9,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "hardik-pandya",
+      "props": {
+        "deliveries": 9,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "harpreet-brar",
+      "props": {
+        "deliveries": 21,
+        "runs": 35,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "harsh-dubey",
+      "props": {
+        "deliveries": 6,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 13,
+        "runs": 43,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 5,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 6,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "jofra-archer",
+      "props": {
+        "deliveries": 16,
+        "runs": 23,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "josh-hazlewood",
+      "props": {
+        "deliveries": 7,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 40,
+        "runs": 62,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 13,
+        "runs": 26,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "kyle-jamieson",
+      "props": {
+        "deliveries": 9,
+        "runs": 21,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "lockie-ferguson",
+      "props": {
+        "deliveries": 6,
+        "runs": 28,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "marco-jansen",
+      "props": {
+        "deliveries": 13,
+        "runs": 30,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "mayank-markande",
+      "props": {
+        "deliveries": 21,
+        "runs": 38,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "mitchell-santner",
+      "props": {
+        "deliveries": 9,
+        "runs": 25,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "mitchell-starc",
+      "props": {
+        "deliveries": 10,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 6,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 28,
+        "runs": 56,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "mukesh-kumar",
+      "props": {
+        "deliveries": 6,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "naveen-ul-haq",
+      "props": {
+        "deliveries": 6,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "nitish-kumar-reddy",
+      "props": {
+        "deliveries": 8,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 7,
+        "runs": 10,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "nuwan-thushara",
+      "props": {
+        "deliveries": 8,
+        "runs": 11,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 10,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "rahul-chahar",
+      "props": {
+        "deliveries": 6,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 9,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 10,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "shahbaz-ahmed",
+      "props": {
+        "deliveries": 7,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "spencer-johnson",
+      "props": {
+        "deliveries": 8,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 13,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 19,
+        "runs": 25,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "tushar-deshpande",
+      "props": {
+        "deliveries": 14,
+        "runs": 24,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "vaibhav-arora",
+      "props": {
+        "deliveries": 8,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "yash-dayal",
+      "props": {
+        "deliveries": 12,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "faced",
+      "dst": "yash-thakur",
+      "props": {
+        "deliveries": 8,
+        "runs": 23,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "philip-salt",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "avesh-khan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "axar-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "g-coetzee",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "harpreet-brar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "ishant-sharma",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "mayank-markande",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "mayank-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "mitchell-santner",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "mukesh-kumar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "prince-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "rahul-chahar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "rashid-khan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "sandeep-sharma",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "shardul-thakur",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "sunil-narine",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "trent-boult",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "abhishek-sharma",
+      "props": {
+        "deliveries": 7,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "akash-madhwal",
+      "props": {
+        "deliveries": 5,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 9,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 21,
+        "runs": 37,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 19,
+        "runs": 31,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "deliveries": 8,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "brijesh-sharma",
+      "props": {
+        "deliveries": 7,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "deepak-chahar",
+      "props": {
+        "deliveries": 5,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 10,
+        "runs": 30,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "dushmantha-chameera",
+      "props": {
+        "deliveries": 11,
+        "runs": 26,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "eshan-malinga",
+      "props": {
+        "deliveries": 17,
+        "runs": 31,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "g-coetzee",
+      "props": {
+        "deliveries": 5,
+        "runs": 13,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "hardik-pandya",
+      "props": {
+        "deliveries": 17,
+        "runs": 45,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "harpreet-brar",
+      "props": {
+        "deliveries": 18,
+        "runs": 21,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 30,
+        "runs": 52,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "ishant-sharma",
+      "props": {
+        "deliveries": 7,
+        "runs": 14,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "jason-holder",
+      "props": {
+        "deliveries": 9,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 13,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 7,
+        "runs": 10,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "kagiso-rabada",
+      "props": {
+        "deliveries": 31,
+        "runs": 31,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "kartik-tyagi",
+      "props": {
+        "deliveries": 8,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 13,
+        "runs": 29,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "krunal-pandya",
+      "props": {
+        "deliveries": 17,
+        "runs": 33,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 13,
+        "runs": 16,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "kulwant-khejroliya",
+      "props": {
+        "deliveries": 6,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "lockie-ferguson",
+      "props": {
+        "deliveries": 6,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "marco-jansen",
+      "props": {
+        "deliveries": 5,
+        "runs": 5,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "deliveries": 14,
+        "runs": 17,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "mayank-markande",
+      "props": {
+        "deliveries": 19,
+        "runs": 62,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "mayank-yadav",
+      "props": {
+        "deliveries": 19,
+        "runs": 33,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "mitchell-santner",
+      "props": {
+        "deliveries": 19,
+        "runs": 25,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 19,
+        "runs": 26,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 11,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "mukesh-kumar",
+      "props": {
+        "deliveries": 17,
+        "runs": 27,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "musheer-khan",
+      "props": {
+        "deliveries": 5,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "nandre-burger",
+      "props": {
+        "deliveries": 7,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "nitish-kumar-reddy",
+      "props": {
+        "deliveries": 8,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 23,
+        "runs": 28,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "oc-mccoy",
+      "props": {
+        "deliveries": 7,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 10,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "prasidh-krishna",
+      "props": {
+        "deliveries": 31,
+        "runs": 44,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "prince-yadav",
+      "props": {
+        "deliveries": 6,
+        "runs": 10,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "rahul-chahar",
+      "props": {
+        "deliveries": 14,
+        "runs": 34,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 17,
+        "runs": 34,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 30,
+        "runs": 63,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "deliveries": 19,
+        "runs": 30,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 12,
+        "runs": 12,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "shardul-thakur",
+      "props": {
+        "deliveries": 8,
+        "runs": 20,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "shreyas-gopal",
+      "props": {
+        "deliveries": 6,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "sunil-narine",
+      "props": {
+        "deliveries": 17,
+        "runs": 33,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "suyash-sharma",
+      "props": {
+        "deliveries": 9,
+        "runs": 30,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 18,
+        "runs": 26,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "tushar-deshpande",
+      "props": {
+        "deliveries": 5,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "xavier-bartlett",
+      "props": {
+        "deliveries": 8,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "yash-thakur",
+      "props": {
+        "deliveries": 5,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 32,
+        "runs": 51,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "rajat-patidar",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "rasikh-salam-dar",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "dismissed_by",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "anrich-nortje",
+      "props": {
+        "deliveries": 7,
+        "runs": 33,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 7,
+        "runs": 7,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 7,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 6,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 5,
+        "runs": 1,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 6,
+        "runs": 26,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "deliveries": 8,
+        "runs": 21,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "mayank-markande",
+      "props": {
+        "deliveries": 5,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "prince-yadav",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 8,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 6,
+        "runs": 4,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "romario-shepherd",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "suyash-sharma",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "ad-russell",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "arshad-khan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "axar-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "brijesh-sharma",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "harshal-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "mitchell-starc",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "mukesh-kumar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "noor-ahmad",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "prasidh-krishna",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "rashid-khan",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "sandeep-sharma",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "shahbaz-ahmed",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "shardul-thakur",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "tushar-deshpande",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "yash-thakur",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "ad-russell",
+      "props": {
+        "deliveries": 12,
+        "runs": 19,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "anrich-nortje",
+      "props": {
+        "deliveries": 12,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "anshul-kamboj",
+      "props": {
+        "deliveries": 8,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "arshad-khan",
+      "props": {
+        "deliveries": 5,
+        "runs": 6,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 19,
+        "runs": 44,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 13,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 13,
+        "runs": 25,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "deliveries": 16,
+        "runs": 32,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "brijesh-sharma",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "d-pretorius",
+      "props": {
+        "deliveries": 6,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "david-payne",
+      "props": {
+        "deliveries": 7,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 8,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "harpreet-brar",
+      "props": {
+        "deliveries": 6,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 6,
+        "runs": 2,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "ishant-sharma",
+      "props": {
+        "deliveries": 5,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "jamie-overton",
+      "props": {
+        "deliveries": 10,
+        "runs": 31,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "jason-holder",
+      "props": {
+        "deliveries": 13,
+        "runs": 38,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 8,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 12,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "jofra-archer",
+      "props": {
+        "deliveries": 11,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "kagiso-rabada",
+      "props": {
+        "deliveries": 7,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 17,
+        "runs": 36,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 9,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "lungi-ngidi",
+      "props": {
+        "deliveries": 5,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "mayank-yadav",
+      "props": {
+        "deliveries": 6,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "mitchell-santner",
+      "props": {
+        "deliveries": 7,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "mitchell-starc",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 12,
+        "runs": 26,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "mukesh-kumar",
+      "props": {
+        "deliveries": 17,
+        "runs": 49,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "deliveries": 6,
+        "runs": 19,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "naveen-ul-haq",
+      "props": {
+        "deliveries": 13,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 8,
+        "runs": 20,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 8,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "prasidh-krishna",
+      "props": {
+        "deliveries": 11,
+        "runs": 20,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 27,
+        "runs": 32,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 9,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "sai-kishore",
+      "props": {
+        "deliveries": 5,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "sakib-hussain",
+      "props": {
+        "deliveries": 5,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 10,
+        "runs": 20,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "shahbaz-ahmed",
+      "props": {
+        "deliveries": 7,
+        "runs": 16,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "shardul-thakur",
+      "props": {
+        "deliveries": 12,
+        "runs": 33,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "sunil-narine",
+      "props": {
+        "deliveries": 8,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 16,
+        "runs": 47,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 11,
+        "runs": 22,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "tushar-deshpande",
+      "props": {
+        "deliveries": 9,
+        "runs": 19,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "xavier-bartlett",
+      "props": {
+        "deliveries": 6,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "yash-thakur",
+      "props": {
+        "deliveries": 8,
+        "runs": 13,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 10,
+        "runs": 12,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "tim-david",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "anrich-nortje",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "axar-patel",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "cameron-green",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "deepak-chahar",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "dj-bravo",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "eshan-malinga",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "gj-maxwell",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "harshal-patel",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "j-little",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "jason-holder",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "kagiso-rabada",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "krunal-pandya",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "marco-jansen",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-siraj",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "rahul-chahar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "rashid-khan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "sai-kishore",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "shardul-thakur",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "yash-dayal",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "adam-milne",
+      "props": {
+        "deliveries": 12,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "aiden-markram",
+      "props": {
+        "deliveries": 5,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "anrich-nortje",
+      "props": {
+        "deliveries": 14,
+        "runs": 14,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "anshul-kamboj",
+      "props": {
+        "deliveries": 8,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "arjun-tendulkar",
+      "props": {
+        "deliveries": 6,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 18,
+        "runs": 24,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 14,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 23,
+        "runs": 26,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "azmatullah-omarzai",
+      "props": {
+        "deliveries": 8,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "deliveries": 36,
+        "runs": 49,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "cameron-green",
+      "props": {
+        "deliveries": 11,
+        "runs": 21,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "deepak-chahar",
+      "props": {
+        "deliveries": 19,
+        "runs": 25,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 9,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "dj-bravo",
+      "props": {
+        "deliveries": 10,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "dr-sams",
+      "props": {
+        "deliveries": 15,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "eshan-malinga",
+      "props": {
+        "deliveries": 6,
+        "runs": 4,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "fa-allen",
+      "props": {
+        "deliveries": 15,
+        "runs": 26,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "g-coetzee",
+      "props": {
+        "deliveries": 9,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "gj-maxwell",
+      "props": {
+        "deliveries": 8,
+        "runs": 6,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "hardik-pandya",
+      "props": {
+        "deliveries": 13,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "harpreet-brar",
+      "props": {
+        "deliveries": 18,
+        "runs": 27,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 28,
+        "runs": 30,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "j-little",
+      "props": {
+        "deliveries": 10,
+        "runs": 19,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "jason-holder",
+      "props": {
+        "deliveries": 10,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 27,
+        "runs": 33,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 18,
+        "runs": 25,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "josh-hazlewood",
+      "props": {
+        "deliveries": 13,
+        "runs": 22,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "kagiso-rabada",
+      "props": {
+        "deliveries": 24,
+        "runs": 45,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "krunal-pandya",
+      "props": {
+        "deliveries": 14,
+        "runs": 12,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 11,
+        "runs": 10,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "lockie-ferguson",
+      "props": {
+        "deliveries": 11,
+        "runs": 25,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "marco-jansen",
+      "props": {
+        "deliveries": 18,
+        "runs": 14,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 19,
+        "runs": 27,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 51,
+        "runs": 65,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "deliveries": 7,
+        "runs": 3,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "naman-dhir",
+      "props": {
+        "deliveries": 8,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 5,
+        "runs": 2,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "nuwan-thushara",
+      "props": {
+        "deliveries": 11,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 20,
+        "runs": 50,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "rahul-chahar",
+      "props": {
+        "deliveries": 25,
+        "runs": 26,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 31,
+        "runs": 33,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 28,
+        "runs": 33,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "deliveries": 7,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "sai-kishore",
+      "props": {
+        "deliveries": 5,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 10,
+        "runs": 24,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "shahbaz-ahmed",
+      "props": {
+        "deliveries": 5,
+        "runs": 4,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "shardul-thakur",
+      "props": {
+        "deliveries": 13,
+        "runs": 26,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "shivang-kumar",
+      "props": {
+        "deliveries": 6,
+        "runs": 22,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "sikandar-raza",
+      "props": {
+        "deliveries": 9,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 13,
+        "runs": 29,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 21,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "tushar-deshpande",
+      "props": {
+        "deliveries": 7,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "vijaykumar-vyshak",
+      "props": {
+        "deliveries": 14,
+        "runs": 13,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "washington-sundar",
+      "props": {
+        "deliveries": 5,
+        "runs": 5,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "yash-dayal",
+      "props": {
+        "deliveries": 16,
+        "runs": 39,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 28,
+        "runs": 57,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "venkatesh-iyer",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "ad-russell",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "adam-milne",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "anrich-nortje",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "anshul-kamboj",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "arshdeep-singh",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "avesh-khan",
+      "props": {
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "axar-patel",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "azmatullah-omarzai",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "deepak-chahar",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "dj-bravo",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "dushmantha-chameera",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "hardik-pandya",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "harpreet-brar",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "harsh-dubey",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "harshal-patel",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "ishant-sharma",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "jason-holder",
+      "props": {
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "dismissals": 5
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "jofra-archer",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "ka-pollard",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "kagiso-rabada",
+      "props": {
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "kartik-tyagi",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "krunal-pandya",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "kyle-jamieson",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "manimaran-siddharth",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "marco-jansen",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "mayank-markande",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "mc-henriques",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "mitchell-santner",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "mohammed-shami",
+      "props": {
+        "dismissals": 5
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "mukesh-choudhary",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "mukesh-kumar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "nitish-rana",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "noor-ahmad",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "prasidh-krishna",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "prince-yadav",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "rahul-chahar",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "rashid-khan",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "sandeep-sharma",
+      "props": {
+        "dismissals": 7
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "shakib-al-hasan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "shardul-thakur",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "shreyas-gopal",
+      "props": {
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "sunil-narine",
+      "props": {
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "trent-boult",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "vipraj-nigam",
+      "props": {
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "dismissed_by",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "a-zampa",
+      "props": {
+        "deliveries": 16,
+        "runs": 33,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "abhishek-sharma",
+      "props": {
+        "deliveries": 19,
+        "runs": 28,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "ad-russell",
+      "props": {
+        "deliveries": 65,
+        "runs": 88,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "adam-milne",
+      "props": {
+        "deliveries": 9,
+        "runs": 15,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "aj-tye",
+      "props": {
+        "deliveries": 36,
+        "runs": 43,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "anrich-nortje",
+      "props": {
+        "deliveries": 17,
+        "runs": 18,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "anshul-kamboj",
+      "props": {
+        "deliveries": 14,
+        "runs": 21,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "anukul-roy",
+      "props": {
+        "deliveries": 13,
+        "runs": 22,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "arshad-khan",
+      "props": {
+        "deliveries": 14,
+        "runs": 23,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "arshdeep-singh",
+      "props": {
+        "deliveries": 65,
+        "runs": 109,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "auqib-nabi",
+      "props": {
+        "deliveries": 6,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "avesh-khan",
+      "props": {
+        "deliveries": 51,
+        "runs": 81,
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "axar-patel",
+      "props": {
+        "deliveries": 90,
+        "runs": 100,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "azmatullah-omarzai",
+      "props": {
+        "deliveries": 23,
+        "runs": 27,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "bhuvneshwar-kumar",
+      "props": {
+        "deliveries": 91,
+        "runs": 129,
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "cameron-green",
+      "props": {
+        "deliveries": 10,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "cj-anderson",
+      "props": {
+        "deliveries": 12,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "deepak-chahar",
+      "props": {
+        "deliveries": 59,
+        "runs": 80,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "digvesh-rathi",
+      "props": {
+        "deliveries": 13,
+        "runs": 17,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "dj-bravo",
+      "props": {
+        "deliveries": 103,
+        "runs": 157,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "dushmantha-chameera",
+      "props": {
+        "deliveries": 20,
+        "runs": 18,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "eshan-malinga",
+      "props": {
+        "deliveries": 10,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "gj-maxwell",
+      "props": {
+        "deliveries": 11,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "hardik-pandya",
+      "props": {
+        "deliveries": 54,
+        "runs": 60,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "harpreet-brar",
+      "props": {
+        "deliveries": 72,
+        "runs": 79,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "harsh-dubey",
+      "props": {
+        "deliveries": 11,
+        "runs": 11,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "harshal-patel",
+      "props": {
+        "deliveries": 56,
+        "runs": 107,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "ishant-sharma",
+      "props": {
+        "deliveries": 75,
+        "runs": 112,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "jason-holder",
+      "props": {
+        "deliveries": 33,
+        "runs": 48,
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "jasprit-bumrah",
+      "props": {
+        "deliveries": 110,
+        "runs": 164,
+        "dismissals": 5
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "jayant-yadav",
+      "props": {
+        "deliveries": 7,
+        "runs": 8,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "jaydev-unadkat",
+      "props": {
+        "deliveries": 76,
+        "runs": 92,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "jofra-archer",
+      "props": {
+        "deliveries": 46,
+        "runs": 64,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "josh-hazlewood",
+      "props": {
+        "deliveries": 11,
+        "runs": 11,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "ka-pollard",
+      "props": {
+        "deliveries": 31,
+        "runs": 44,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "kagiso-rabada",
+      "props": {
+        "deliveries": 69,
+        "runs": 124,
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "kartik-tyagi",
+      "props": {
+        "deliveries": 22,
+        "runs": 37,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "khaleel-ahmed",
+      "props": {
+        "deliveries": 32,
+        "runs": 51,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "krunal-pandya",
+      "props": {
+        "deliveries": 107,
+        "runs": 117,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "kuldeep-yadav",
+      "props": {
+        "deliveries": 64,
+        "runs": 75,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "kyle-jamieson",
+      "props": {
+        "deliveries": 12,
+        "runs": 14,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "liam-livingstone",
+      "props": {
+        "deliveries": 14,
+        "runs": 23,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "lockie-ferguson",
+      "props": {
+        "deliveries": 45,
+        "runs": 72,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "manav-suthar",
+      "props": {
+        "deliveries": 7,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "manimaran-siddharth",
+      "props": {
+        "deliveries": 8,
+        "runs": 7,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "marco-jansen",
+      "props": {
+        "deliveries": 19,
+        "runs": 26,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "marcus-stoinis",
+      "props": {
+        "deliveries": 13,
+        "runs": 18,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "matheesha-pathirana",
+      "props": {
+        "deliveries": 9,
+        "runs": 15,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "matt-henry",
+      "props": {
+        "deliveries": 8,
+        "runs": 19,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mayank-markande",
+      "props": {
+        "deliveries": 35,
+        "runs": 38,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mc-henriques",
+      "props": {
+        "deliveries": 25,
+        "runs": 37,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mitchell-marsh",
+      "props": {
+        "deliveries": 21,
+        "runs": 28,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mitchell-santner",
+      "props": {
+        "deliveries": 43,
+        "runs": 52,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mitchell-starc",
+      "props": {
+        "deliveries": 31,
+        "runs": 59,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mohammed-shami",
+      "props": {
+        "deliveries": 85,
+        "runs": 119,
+        "dismissals": 5
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mohammed-siraj",
+      "props": {
+        "deliveries": 23,
+        "runs": 37,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mukesh-choudhary",
+      "props": {
+        "deliveries": 9,
+        "runs": 5,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mukesh-kumar",
+      "props": {
+        "deliveries": 16,
+        "runs": 18,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "mustafizur-rahman",
+      "props": {
+        "deliveries": 47,
+        "runs": 66,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "nandre-burger",
+      "props": {
+        "deliveries": 19,
+        "runs": 24,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "naveen-ul-haq",
+      "props": {
+        "deliveries": 6,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "nitish-kumar-reddy",
+      "props": {
+        "deliveries": 10,
+        "runs": 16,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "nitish-rana",
+      "props": {
+        "deliveries": 10,
+        "runs": 16,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "noor-ahmad",
+      "props": {
+        "deliveries": 44,
+        "runs": 63,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "pat-cummins",
+      "props": {
+        "deliveries": 37,
+        "runs": 58,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "prasidh-krishna",
+      "props": {
+        "deliveries": 42,
+        "runs": 70,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "prince-yadav",
+      "props": {
+        "deliveries": 9,
+        "runs": 17,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "rahul-chahar",
+      "props": {
+        "deliveries": 42,
+        "runs": 42,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "rahul-tewatia",
+      "props": {
+        "deliveries": 34,
+        "runs": 40,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "rashid-khan",
+      "props": {
+        "deliveries": 90,
+        "runs": 117,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "ravi-bishnoi",
+      "props": {
+        "deliveries": 44,
+        "runs": 37,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "ravindra-jadeja",
+      "props": {
+        "deliveries": 160,
+        "runs": 179,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "riyan-parag",
+      "props": {
+        "deliveries": 23,
+        "runs": 39,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "sai-kishore",
+      "props": {
+        "deliveries": 24,
+        "runs": 27,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "sandeep-sharma",
+      "props": {
+        "deliveries": 90,
+        "runs": 140,
+        "dismissals": 7
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "shahbaz-ahmed",
+      "props": {
+        "deliveries": 18,
+        "runs": 14,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "shakib-al-hasan",
+      "props": {
+        "deliveries": 45,
+        "runs": 56,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "shardul-thakur",
+      "props": {
+        "deliveries": 50,
+        "runs": 81,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "shashank-singh",
+      "props": {
+        "deliveries": 6,
+        "runs": 12,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "shivam-mavi",
+      "props": {
+        "deliveries": 14,
+        "runs": 21,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "shreyas-gopal",
+      "props": {
+        "deliveries": 39,
+        "runs": 68,
+        "dismissals": 3
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "sunil-narine",
+      "props": {
+        "deliveries": 141,
+        "runs": 149,
+        "dismissals": 4
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "suyash-sharma",
+      "props": {
+        "deliveries": 10,
+        "runs": 20,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "thangarasu-natarajan",
+      "props": {
+        "deliveries": 35,
+        "runs": 66,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "trent-boult",
+      "props": {
+        "deliveries": 73,
+        "runs": 97,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "tushar-deshpande",
+      "props": {
+        "deliveries": 16,
+        "runs": 32,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "vaibhav-arora",
+      "props": {
+        "deliveries": 24,
+        "runs": 54,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "vijaykumar-vyshak",
+      "props": {
+        "deliveries": 7,
+        "runs": 6,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "vipraj-nigam",
+      "props": {
+        "deliveries": 11,
+        "runs": 13,
+        "dismissals": 1
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "washington-sundar",
+      "props": {
+        "deliveries": 5,
+        "runs": 3,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "wd-parnell",
+      "props": {
+        "deliveries": 8,
+        "runs": 7,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "will-jacks",
+      "props": {
+        "deliveries": 5,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "xavier-bartlett",
+      "props": {
+        "deliveries": 9,
+        "runs": 9,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "yash-dayal",
+      "props": {
+        "deliveries": 26,
+        "runs": 48,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "yash-thakur",
+      "props": {
+        "deliveries": 5,
+        "runs": 5,
+        "dismissals": 0
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "faced",
+      "dst": "yuzvendra-chahal",
+      "props": {
+        "deliveries": 53,
+        "runs": 71,
+        "dismissals": 2
+      }
+    },
+    {
+      "src": "virat-kohli",
+      "predicate": "plays_for",
+      "dst": "rcb"
+    }
+  ]
+}

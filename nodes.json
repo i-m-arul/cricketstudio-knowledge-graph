@@ -1,0 +1,857 @@
+{
+  "dataset": "cricket-knowledge-graph-sample",
+  "scope": "Single-franchise SAMPLE (Royal Challengers Bengaluru) — IPL 2026 + IPL-career matchup edges",
+  "note": "Sample teaser. The full graph is available via the CricketStudio API (gated). No external-ID crosswalk, no derivation method, no match/fixture identifiers.",
+  "publisher": "CricketStudio",
+  "homepage": "https://players.cricketstudio.ai",
+  "license": "CC BY 4.0",
+  "count": 141,
+  "nodes": [
+    {
+      "id": "rcb",
+      "type": "franchise",
+      "name": "Royal Challengers Bengaluru",
+      "canonical_url": "https://players.cricketstudio.ai/teams/rcb"
+    },
+    {
+      "id": "xavier-bartlett",
+      "type": "player",
+      "name": "Xavier Bartlett",
+      "canonical_url": "https://players.cricketstudio.ai/players/xavier-bartlett"
+    },
+    {
+      "id": "rahul-chahar",
+      "type": "player",
+      "name": "Rahul Chahar",
+      "canonical_url": "https://players.cricketstudio.ai/players/rahul-chahar"
+    },
+    {
+      "id": "abhishek-sharma",
+      "type": "player",
+      "name": "Abhishek Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/abhishek-sharma"
+    },
+    {
+      "id": "yash-thakur",
+      "type": "player",
+      "name": "Yash Thakur",
+      "canonical_url": "https://players.cricketstudio.ai/players/yash-thakur"
+    },
+    {
+      "id": "cameron-green",
+      "type": "player",
+      "name": "Cameron Green",
+      "canonical_url": "https://players.cricketstudio.ai/players/cameron-green"
+    },
+    {
+      "id": "riyan-parag",
+      "type": "player",
+      "name": "Riyan Parag",
+      "canonical_url": "https://players.cricketstudio.ai/players/riyan-parag"
+    },
+    {
+      "id": "shivam-mavi",
+      "type": "player",
+      "name": "Shivam Mavi",
+      "canonical_url": "https://players.cricketstudio.ai/players/shivam-mavi"
+    },
+    {
+      "id": "mayank-markande",
+      "type": "player",
+      "name": "Mayank Markande",
+      "canonical_url": "https://players.cricketstudio.ai/players/mayank-markande"
+    },
+    {
+      "id": "kulwant-khejroliya",
+      "type": "player",
+      "name": "Kulwant Khejroliya",
+      "canonical_url": "https://players.cricketstudio.ai/players/kulwant-khejroliya"
+    },
+    {
+      "id": "devdutt-padikkal",
+      "type": "player",
+      "name": "Devdutt Padikkal",
+      "canonical_url": "https://players.cricketstudio.ai/players/devdutt-padikkal"
+    },
+    {
+      "id": "kartik-tyagi",
+      "type": "player",
+      "name": "Kartik Tyagi",
+      "canonical_url": "https://players.cricketstudio.ai/players/kartik-tyagi"
+    },
+    {
+      "id": "mukesh-choudhary",
+      "type": "player",
+      "name": "Mukesh Choudhary",
+      "canonical_url": "https://players.cricketstudio.ai/players/mukesh-choudhary"
+    },
+    {
+      "id": "arshdeep-singh",
+      "type": "player",
+      "name": "Arshdeep Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/arshdeep-singh"
+    },
+    {
+      "id": "arjun-tendulkar",
+      "type": "player",
+      "name": "Arjun Tendulkar",
+      "canonical_url": "https://players.cricketstudio.ai/players/arjun-tendulkar"
+    },
+    {
+      "id": "manimaran-siddharth",
+      "type": "player",
+      "name": "Manimaran Siddharth",
+      "canonical_url": "https://players.cricketstudio.ai/players/manimaran-siddharth"
+    },
+    {
+      "id": "shahbaz-ahmed",
+      "type": "player",
+      "name": "Shahbaz Ahmed",
+      "canonical_url": "https://players.cricketstudio.ai/players/shahbaz-ahmed"
+    },
+    {
+      "id": "yash-dayal",
+      "type": "player",
+      "name": "Yash Dayal",
+      "canonical_url": "https://players.cricketstudio.ai/players/yash-dayal"
+    },
+    {
+      "id": "auqib-nabi",
+      "type": "player",
+      "name": "Auqib Nabi",
+      "canonical_url": "https://players.cricketstudio.ai/players/auqib-nabi"
+    },
+    {
+      "id": "harpreet-brar",
+      "type": "player",
+      "name": "Harpreet Brar",
+      "canonical_url": "https://players.cricketstudio.ai/players/harpreet-brar"
+    },
+    {
+      "id": "manav-suthar",
+      "type": "player",
+      "name": "Manav Suthar",
+      "canonical_url": "https://players.cricketstudio.ai/players/manav-suthar"
+    },
+    {
+      "id": "anshul-kamboj",
+      "type": "player",
+      "name": "Anshul Kamboj",
+      "canonical_url": "https://players.cricketstudio.ai/players/anshul-kamboj"
+    },
+    {
+      "id": "ravi-bishnoi",
+      "type": "player",
+      "name": "Ravi Bishnoi",
+      "canonical_url": "https://players.cricketstudio.ai/players/ravi-bishnoi"
+    },
+    {
+      "id": "nitish-kumar-reddy",
+      "type": "player",
+      "name": "Nitish Kumar Reddy",
+      "canonical_url": "https://players.cricketstudio.ai/players/nitish-kumar-reddy"
+    },
+    {
+      "id": "noor-ahmad",
+      "type": "player",
+      "name": "Noor Ahmad",
+      "canonical_url": "https://players.cricketstudio.ai/players/noor-ahmad"
+    },
+    {
+      "id": "jacob-bethell",
+      "type": "player",
+      "name": "Jacob Bethell",
+      "canonical_url": "https://players.cricketstudio.ai/players/jacob-bethell"
+    },
+    {
+      "id": "akash-madhwal",
+      "type": "player",
+      "name": "Akash Madhwal",
+      "canonical_url": "https://players.cricketstudio.ai/players/akash-madhwal"
+    },
+    {
+      "id": "vaibhav-arora",
+      "type": "player",
+      "name": "Vaibhav Arora",
+      "canonical_url": "https://players.cricketstudio.ai/players/vaibhav-arora"
+    },
+    {
+      "id": "harsh-dubey",
+      "type": "player",
+      "name": "Harsh Dubey",
+      "canonical_url": "https://players.cricketstudio.ai/players/harsh-dubey"
+    },
+    {
+      "id": "umran-malik",
+      "type": "player",
+      "name": "Umran Malik",
+      "canonical_url": "https://players.cricketstudio.ai/players/umran-malik"
+    },
+    {
+      "id": "naman-dhir",
+      "type": "player",
+      "name": "Naman Dhir",
+      "canonical_url": "https://players.cricketstudio.ai/players/naman-dhir"
+    },
+    {
+      "id": "raj-angad-bawa",
+      "type": "player",
+      "name": "Raj Angad Bawa",
+      "canonical_url": "https://players.cricketstudio.ai/players/raj-angad-bawa"
+    },
+    {
+      "id": "mayank-yadav",
+      "type": "player",
+      "name": "Mayank Yadav",
+      "canonical_url": "https://players.cricketstudio.ai/players/mayank-yadav"
+    },
+    {
+      "id": "eshan-malinga",
+      "type": "player",
+      "name": "Eshan Malinga",
+      "canonical_url": "https://players.cricketstudio.ai/players/eshan-malinga"
+    },
+    {
+      "id": "musheer-khan",
+      "type": "player",
+      "name": "Musheer Khan",
+      "canonical_url": "https://players.cricketstudio.ai/players/musheer-khan"
+    },
+    {
+      "id": "sakib-hussain",
+      "type": "player",
+      "name": "Sakib Hussain",
+      "canonical_url": "https://players.cricketstudio.ai/players/sakib-hussain"
+    },
+    {
+      "id": "prince-yadav",
+      "type": "player",
+      "name": "Prince Yadav",
+      "canonical_url": "https://players.cricketstudio.ai/players/prince-yadav"
+    },
+    {
+      "id": "suyash-sharma",
+      "type": "player",
+      "name": "Suyash Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/suyash-sharma"
+    },
+    {
+      "id": "sunil-narine",
+      "type": "player",
+      "name": "Sunil Narine",
+      "canonical_url": "https://players.cricketstudio.ai/players/sunil-narine"
+    },
+    {
+      "id": "ka-pollard",
+      "type": "player",
+      "name": "KA Pollard",
+      "canonical_url": "https://players.cricketstudio.ai/players/ka-pollard"
+    },
+    {
+      "id": "ravindra-jadeja",
+      "type": "player",
+      "name": "Ravindra Jadeja",
+      "canonical_url": "https://players.cricketstudio.ai/players/ravindra-jadeja"
+    },
+    {
+      "id": "virat-kohli",
+      "type": "player",
+      "name": "Virat Kohli",
+      "canonical_url": "https://players.cricketstudio.ai/players/virat-kohli"
+    },
+    {
+      "id": "wd-parnell",
+      "type": "player",
+      "name": "WD Parnell",
+      "canonical_url": "https://players.cricketstudio.ai/players/wd-parnell"
+    },
+    {
+      "id": "mitchell-marsh",
+      "type": "player",
+      "name": "Mitchell Marsh",
+      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-marsh"
+    },
+    {
+      "id": "ad-russell",
+      "type": "player",
+      "name": "AD Russell",
+      "canonical_url": "https://players.cricketstudio.ai/players/ad-russell"
+    },
+    {
+      "id": "cj-anderson",
+      "type": "player",
+      "name": "CJ Anderson",
+      "canonical_url": "https://players.cricketstudio.ai/players/cj-anderson"
+    },
+    {
+      "id": "trent-boult",
+      "type": "player",
+      "name": "Trent Boult",
+      "canonical_url": "https://players.cricketstudio.ai/players/trent-boult"
+    },
+    {
+      "id": "josh-hazlewood",
+      "type": "player",
+      "name": "Josh Hazlewood",
+      "canonical_url": "https://players.cricketstudio.ai/players/josh-hazlewood"
+    },
+    {
+      "id": "sikandar-raza",
+      "type": "player",
+      "name": "Sikandar Raza",
+      "canonical_url": "https://players.cricketstudio.ai/players/sikandar-raza"
+    },
+    {
+      "id": "marcus-stoinis",
+      "type": "player",
+      "name": "Marcus Stoinis",
+      "canonical_url": "https://players.cricketstudio.ai/players/marcus-stoinis"
+    },
+    {
+      "id": "gj-maxwell",
+      "type": "player",
+      "name": "GJ Maxwell",
+      "canonical_url": "https://players.cricketstudio.ai/players/gj-maxwell"
+    },
+    {
+      "id": "bhuvneshwar-kumar",
+      "type": "player",
+      "name": "Bhuvneshwar Kumar",
+      "canonical_url": "https://players.cricketstudio.ai/players/bhuvneshwar-kumar"
+    },
+    {
+      "id": "d-pretorius",
+      "type": "player",
+      "name": "D Pretorius",
+      "canonical_url": "https://players.cricketstudio.ai/players/d-pretorius"
+    },
+    {
+      "id": "mustafizur-rahman",
+      "type": "player",
+      "name": "Mustafizur Rahman",
+      "canonical_url": "https://players.cricketstudio.ai/players/mustafizur-rahman"
+    },
+    {
+      "id": "saurabh-dubey",
+      "type": "player",
+      "name": "Saurabh Dubey",
+      "canonical_url": "https://players.cricketstudio.ai/players/saurabh-dubey"
+    },
+    {
+      "id": "david-payne",
+      "type": "player",
+      "name": "David Payne",
+      "canonical_url": "https://players.cricketstudio.ai/players/david-payne"
+    },
+    {
+      "id": "shashank-singh",
+      "type": "player",
+      "name": "Shashank Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/shashank-singh"
+    },
+    {
+      "id": "a-zampa",
+      "type": "player",
+      "name": "A Zampa",
+      "canonical_url": "https://players.cricketstudio.ai/players/a-zampa"
+    },
+    {
+      "id": "arshad-khan",
+      "type": "player",
+      "name": "Arshad Khan",
+      "canonical_url": "https://players.cricketstudio.ai/players/arshad-khan"
+    },
+    {
+      "id": "harshal-patel",
+      "type": "player",
+      "name": "Harshal Patel",
+      "canonical_url": "https://players.cricketstudio.ai/players/harshal-patel"
+    },
+    {
+      "id": "jaydev-unadkat",
+      "type": "player",
+      "name": "Jaydev Unadkat",
+      "canonical_url": "https://players.cricketstudio.ai/players/jaydev-unadkat"
+    },
+    {
+      "id": "jason-holder",
+      "type": "player",
+      "name": "Jason Holder",
+      "canonical_url": "https://players.cricketstudio.ai/players/jason-holder"
+    },
+    {
+      "id": "liam-livingstone",
+      "type": "player",
+      "name": "Liam Livingstone",
+      "canonical_url": "https://players.cricketstudio.ai/players/liam-livingstone"
+    },
+    {
+      "id": "rahul-tewatia",
+      "type": "player",
+      "name": "Rahul Tewatia",
+      "canonical_url": "https://players.cricketstudio.ai/players/rahul-tewatia"
+    },
+    {
+      "id": "yuzvendra-chahal",
+      "type": "player",
+      "name": "Yuzvendra Chahal",
+      "canonical_url": "https://players.cricketstudio.ai/players/yuzvendra-chahal"
+    },
+    {
+      "id": "sandeep-sharma",
+      "type": "player",
+      "name": "Sandeep Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/sandeep-sharma"
+    },
+    {
+      "id": "deepak-chahar",
+      "type": "player",
+      "name": "Deepak Chahar",
+      "canonical_url": "https://players.cricketstudio.ai/players/deepak-chahar"
+    },
+    {
+      "id": "jayant-yadav",
+      "type": "player",
+      "name": "Jayant Yadav",
+      "canonical_url": "https://players.cricketstudio.ai/players/jayant-yadav"
+    },
+    {
+      "id": "aj-tye",
+      "type": "player",
+      "name": "AJ Tye",
+      "canonical_url": "https://players.cricketstudio.ai/players/aj-tye"
+    },
+    {
+      "id": "krunal-pandya",
+      "type": "player",
+      "name": "Krunal Pandya",
+      "canonical_url": "https://players.cricketstudio.ai/players/krunal-pandya"
+    },
+    {
+      "id": "shardul-thakur",
+      "type": "player",
+      "name": "Shardul Thakur",
+      "canonical_url": "https://players.cricketstudio.ai/players/shardul-thakur"
+    },
+    {
+      "id": "mohammed-shami",
+      "type": "player",
+      "name": "Mohammed Shami",
+      "canonical_url": "https://players.cricketstudio.ai/players/mohammed-shami"
+    },
+    {
+      "id": "anrich-nortje",
+      "type": "player",
+      "name": "Anrich Nortje",
+      "canonical_url": "https://players.cricketstudio.ai/players/anrich-nortje"
+    },
+    {
+      "id": "pat-cummins",
+      "type": "player",
+      "name": "Pat Cummins",
+      "canonical_url": "https://players.cricketstudio.ai/players/pat-cummins"
+    },
+    {
+      "id": "lockie-ferguson",
+      "type": "player",
+      "name": "Lockie Ferguson",
+      "canonical_url": "https://players.cricketstudio.ai/players/lockie-ferguson"
+    },
+    {
+      "id": "mitchell-santner",
+      "type": "player",
+      "name": "Mitchell Santner",
+      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-santner"
+    },
+    {
+      "id": "matt-henry",
+      "type": "player",
+      "name": "Matt Henry",
+      "canonical_url": "https://players.cricketstudio.ai/players/matt-henry"
+    },
+    {
+      "id": "jamie-overton",
+      "type": "player",
+      "name": "Jamie Overton",
+      "canonical_url": "https://players.cricketstudio.ai/players/jamie-overton"
+    },
+    {
+      "id": "dj-bravo",
+      "type": "player",
+      "name": "DJ Bravo",
+      "canonical_url": "https://players.cricketstudio.ai/players/dj-bravo"
+    },
+    {
+      "id": "akeal-hosein",
+      "type": "player",
+      "name": "Akeal Hosein",
+      "canonical_url": "https://players.cricketstudio.ai/players/akeal-hosein"
+    },
+    {
+      "id": "lungi-ngidi",
+      "type": "player",
+      "name": "Lungi Ngidi",
+      "canonical_url": "https://players.cricketstudio.ai/players/lungi-ngidi"
+    },
+    {
+      "id": "jacob-duffy",
+      "type": "player",
+      "name": "Jacob Duffy",
+      "canonical_url": "https://players.cricketstudio.ai/players/jacob-duffy"
+    },
+    {
+      "id": "kagiso-rabada",
+      "type": "player",
+      "name": "Kagiso Rabada",
+      "canonical_url": "https://players.cricketstudio.ai/players/kagiso-rabada"
+    },
+    {
+      "id": "dushmantha-chameera",
+      "type": "player",
+      "name": "Dushmantha Chameera",
+      "canonical_url": "https://players.cricketstudio.ai/players/dushmantha-chameera"
+    },
+    {
+      "id": "axar-patel",
+      "type": "player",
+      "name": "Axar Patel",
+      "canonical_url": "https://players.cricketstudio.ai/players/axar-patel"
+    },
+    {
+      "id": "kuldeep-yadav",
+      "type": "player",
+      "name": "Kuldeep Yadav",
+      "canonical_url": "https://players.cricketstudio.ai/players/kuldeep-yadav"
+    },
+    {
+      "id": "shakib-al-hasan",
+      "type": "player",
+      "name": "Shakib Al Hasan",
+      "canonical_url": "https://players.cricketstudio.ai/players/shakib-al-hasan"
+    },
+    {
+      "id": "corbin-bosch",
+      "type": "player",
+      "name": "Corbin Bosch",
+      "canonical_url": "https://players.cricketstudio.ai/players/corbin-bosch"
+    },
+    {
+      "id": "g-coetzee",
+      "type": "player",
+      "name": "G Coetzee",
+      "canonical_url": "https://players.cricketstudio.ai/players/g-coetzee"
+    },
+    {
+      "id": "mc-henriques",
+      "type": "player",
+      "name": "MC Henriques",
+      "canonical_url": "https://players.cricketstudio.ai/players/mc-henriques"
+    },
+    {
+      "id": "aiden-markram",
+      "type": "player",
+      "name": "Aiden Markram",
+      "canonical_url": "https://players.cricketstudio.ai/players/aiden-markram"
+    },
+    {
+      "id": "nitish-rana",
+      "type": "player",
+      "name": "Nitish Rana",
+      "canonical_url": "https://players.cricketstudio.ai/players/nitish-rana"
+    },
+    {
+      "id": "hardik-pandya",
+      "type": "player",
+      "name": "Hardik Pandya",
+      "canonical_url": "https://players.cricketstudio.ai/players/hardik-pandya"
+    },
+    {
+      "id": "jasprit-bumrah",
+      "type": "player",
+      "name": "Jasprit Bumrah",
+      "canonical_url": "https://players.cricketstudio.ai/players/jasprit-bumrah"
+    },
+    {
+      "id": "kyle-jamieson",
+      "type": "player",
+      "name": "Kyle Jamieson",
+      "canonical_url": "https://players.cricketstudio.ai/players/kyle-jamieson"
+    },
+    {
+      "id": "philip-salt",
+      "type": "player",
+      "name": "Philip Salt",
+      "canonical_url": "https://players.cricketstudio.ai/players/philip-salt"
+    },
+    {
+      "id": "jofra-archer",
+      "type": "player",
+      "name": "Jofra Archer",
+      "canonical_url": "https://players.cricketstudio.ai/players/jofra-archer"
+    },
+    {
+      "id": "fa-allen",
+      "type": "player",
+      "name": "FA Allen",
+      "canonical_url": "https://players.cricketstudio.ai/players/fa-allen"
+    },
+    {
+      "id": "romario-shepherd",
+      "type": "player",
+      "name": "Romario Shepherd",
+      "canonical_url": "https://players.cricketstudio.ai/players/romario-shepherd"
+    },
+    {
+      "id": "kma-paul",
+      "type": "player",
+      "name": "KMA Paul",
+      "canonical_url": "https://players.cricketstudio.ai/players/kma-paul"
+    },
+    {
+      "id": "avesh-khan",
+      "type": "player",
+      "name": "Avesh Khan",
+      "canonical_url": "https://players.cricketstudio.ai/players/avesh-khan"
+    },
+    {
+      "id": "marco-jansen",
+      "type": "player",
+      "name": "Marco Jansen",
+      "canonical_url": "https://players.cricketstudio.ai/players/marco-jansen"
+    },
+    {
+      "id": "navdeep-saini",
+      "type": "player",
+      "name": "Navdeep Saini",
+      "canonical_url": "https://players.cricketstudio.ai/players/navdeep-saini"
+    },
+    {
+      "id": "shivam-dube",
+      "type": "player",
+      "name": "Shivam Dube",
+      "canonical_url": "https://players.cricketstudio.ai/players/shivam-dube"
+    },
+    {
+      "id": "washington-sundar",
+      "type": "player",
+      "name": "Washington Sundar",
+      "canonical_url": "https://players.cricketstudio.ai/players/washington-sundar"
+    },
+    {
+      "id": "jitesh-sharma",
+      "type": "player",
+      "name": "Jitesh Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/jitesh-sharma"
+    },
+    {
+      "id": "vijaykumar-vyshak",
+      "type": "player",
+      "name": "Vijaykumar Vyshak",
+      "canonical_url": "https://players.cricketstudio.ai/players/vijaykumar-vyshak"
+    },
+    {
+      "id": "naveen-ul-haq",
+      "type": "player",
+      "name": "Naveen-ul-Haq",
+      "canonical_url": "https://players.cricketstudio.ai/players/naveen-ul-haq"
+    },
+    {
+      "id": "rashid-khan",
+      "type": "player",
+      "name": "Rashid Khan",
+      "canonical_url": "https://players.cricketstudio.ai/players/rashid-khan"
+    },
+    {
+      "id": "thangarasu-natarajan",
+      "type": "player",
+      "name": "Thangarasu Natarajan",
+      "canonical_url": "https://players.cricketstudio.ai/players/thangarasu-natarajan"
+    },
+    {
+      "id": "azmatullah-omarzai",
+      "type": "player",
+      "name": "Azmatullah Omarzai",
+      "canonical_url": "https://players.cricketstudio.ai/players/azmatullah-omarzai"
+    },
+    {
+      "id": "tushar-deshpande",
+      "type": "player",
+      "name": "Tushar Deshpande",
+      "canonical_url": "https://players.cricketstudio.ai/players/tushar-deshpande"
+    },
+    {
+      "id": "rajat-patidar",
+      "type": "player",
+      "name": "Rajat Patidar",
+      "canonical_url": "https://players.cricketstudio.ai/players/rajat-patidar"
+    },
+    {
+      "id": "dr-sams",
+      "type": "player",
+      "name": "DR Sams",
+      "canonical_url": "https://players.cricketstudio.ai/players/dr-sams"
+    },
+    {
+      "id": "venkatesh-iyer",
+      "type": "player",
+      "name": "Venkatesh Iyer",
+      "canonical_url": "https://players.cricketstudio.ai/players/venkatesh-iyer"
+    },
+    {
+      "id": "tim-david",
+      "type": "player",
+      "name": "Tim David",
+      "canonical_url": "https://players.cricketstudio.ai/players/tim-david"
+    },
+    {
+      "id": "will-jacks",
+      "type": "player",
+      "name": "Will Jacks",
+      "canonical_url": "https://players.cricketstudio.ai/players/will-jacks"
+    },
+    {
+      "id": "oc-mccoy",
+      "type": "player",
+      "name": "OC McCoy",
+      "canonical_url": "https://players.cricketstudio.ai/players/oc-mccoy"
+    },
+    {
+      "id": "prasidh-krishna",
+      "type": "player",
+      "name": "Prasidh Krishna",
+      "canonical_url": "https://players.cricketstudio.ai/players/prasidh-krishna"
+    },
+    {
+      "id": "mukesh-kumar",
+      "type": "player",
+      "name": "Mukesh Kumar",
+      "canonical_url": "https://players.cricketstudio.ai/players/mukesh-kumar"
+    },
+    {
+      "id": "j-little",
+      "type": "player",
+      "name": "J Little",
+      "canonical_url": "https://players.cricketstudio.ai/players/j-little"
+    },
+    {
+      "id": "mohammed-siraj",
+      "type": "player",
+      "name": "Mohammed Siraj",
+      "canonical_url": "https://players.cricketstudio.ai/players/mohammed-siraj"
+    },
+    {
+      "id": "khaleel-ahmed",
+      "type": "player",
+      "name": "Khaleel Ahmed",
+      "canonical_url": "https://players.cricketstudio.ai/players/khaleel-ahmed"
+    },
+    {
+      "id": "nandre-burger",
+      "type": "player",
+      "name": "Nandre Burger",
+      "canonical_url": "https://players.cricketstudio.ai/players/nandre-burger"
+    },
+    {
+      "id": "abhinandan-singh",
+      "type": "player",
+      "name": "Abhinandan Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/abhinandan-singh"
+    },
+    {
+      "id": "adam-milne",
+      "type": "player",
+      "name": "Adam Milne",
+      "canonical_url": "https://players.cricketstudio.ai/players/adam-milne"
+    },
+    {
+      "id": "am-ghazanfar",
+      "type": "player",
+      "name": "AM Ghazanfar",
+      "canonical_url": "https://players.cricketstudio.ai/players/am-ghazanfar"
+    },
+    {
+      "id": "anukul-roy",
+      "type": "player",
+      "name": "Anukul Roy",
+      "canonical_url": "https://players.cricketstudio.ai/players/anukul-roy"
+    },
+    {
+      "id": "brijesh-sharma",
+      "type": "player",
+      "name": "Brijesh Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/brijesh-sharma"
+    },
+    {
+      "id": "digvesh-rathi",
+      "type": "player",
+      "name": "Digvesh Rathi",
+      "canonical_url": "https://players.cricketstudio.ai/players/digvesh-rathi"
+    },
+    {
+      "id": "ishant-sharma",
+      "type": "player",
+      "name": "Ishant Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/ishant-sharma"
+    },
+    {
+      "id": "kuldeep-sen",
+      "type": "player",
+      "name": "Kuldeep Sen",
+      "canonical_url": "https://players.cricketstudio.ai/players/kuldeep-sen"
+    },
+    {
+      "id": "matheesha-pathirana",
+      "type": "player",
+      "name": "Matheesha Pathirana",
+      "canonical_url": "https://players.cricketstudio.ai/players/matheesha-pathirana"
+    },
+    {
+      "id": "mitchell-starc",
+      "type": "player",
+      "name": "Mitchell Starc",
+      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-starc"
+    },
+    {
+      "id": "nuwan-thushara",
+      "type": "player",
+      "name": "Nuwan Thushara",
+      "canonical_url": "https://players.cricketstudio.ai/players/nuwan-thushara"
+    },
+    {
+      "id": "rasikh-salam-dar",
+      "type": "player",
+      "name": "Rasikh Salam Dar",
+      "canonical_url": "https://players.cricketstudio.ai/players/rasikh-salam-dar"
+    },
+    {
+      "id": "sai-kishore",
+      "type": "player",
+      "name": "Sai Kishore",
+      "canonical_url": "https://players.cricketstudio.ai/players/sai-kishore"
+    },
+    {
+      "id": "shivang-kumar",
+      "type": "player",
+      "name": "Shivang Kumar",
+      "canonical_url": "https://players.cricketstudio.ai/players/shivang-kumar"
+    },
+    {
+      "id": "shreyas-gopal",
+      "type": "player",
+      "name": "Shreyas Gopal",
+      "canonical_url": "https://players.cricketstudio.ai/players/shreyas-gopal"
+    },
+    {
+      "id": "spencer-johnson",
+      "type": "player",
+      "name": "Spencer Johnson",
+      "canonical_url": "https://players.cricketstudio.ai/players/spencer-johnson"
+    },
+    {
+      "id": "vipraj-nigam",
+      "type": "player",
+      "name": "Vipraj Nigam",
+      "canonical_url": "https://players.cricketstudio.ai/players/vipraj-nigam"
+    }
+  ]
+}

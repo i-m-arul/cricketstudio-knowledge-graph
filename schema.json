@@ -1,0 +1,26 @@
+{
+  "name": "CricketStudio Knowledge Graph — schema",
+  "description": "Node types and typed edge predicates. Public vocabulary only.",
+  "license": "CC BY 4.0",
+  "entityTypes": [
+    "player",
+    "franchise"
+  ],
+  "edgePredicates": {
+    "plays_for": {
+      "subject": "player",
+      "object": "franchise",
+      "label": "plays for"
+    },
+    "faced": {
+      "subject": "player",
+      "object": "player",
+      "label": "faced (batter vs bowler)"
+    },
+    "dismissed_by": {
+      "subject": "player",
+      "object": "player",
+      "label": "dismissed by"
+    }
+  }
+}
