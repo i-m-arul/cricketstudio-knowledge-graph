@@ -1,0 +1,21 @@
+{
+  "title": "CricketStudio Knowledge Graph — Sample",
+  "id": "cricketstudio/cricketstudio-knowledge-graph",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "subtitle": "Cricket knowledge graph: all 10 IPL franchises, player attributes, batter-vs-bowler matchups",
+  "description": "A public sample of the CricketStudio cricket knowledge graph: all 10 IPL 2026 franchises and their players, with batter-vs-bowler matchup relationships (IPL 2026 + IPL-career head-to-head). 256 entities, 6,861 typed relationships (plays_for, faced, dismissed_by). Player nodes include role, battingHandedness, bowlingStyle, nationality, and leagues[] coverage flags from CricketStudio's Wave 1+2 player-type backfill. Every node carries a canonical_url back to https://players.cricketstudio.ai. Slug-keyed; no internal ids; no external-ID crosswalk. Full graph is API-gated. Files: nodes.json/csv, edges.json/csv, schema.json. License CC-BY 4.0.",
+  "keywords": [
+    "cricket",
+    "knowledge graph",
+    "ipl",
+    "mlc",
+    "sports analytics",
+    "graph",
+    "entity resolution",
+    "player attributes"
+  ]
+}

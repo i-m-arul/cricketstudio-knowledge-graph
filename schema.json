@@ -1,6 +1,6 @@
 {
   "name": "CricketStudio Knowledge Graph — schema",
-  "description": "Node types and typed edge predicates. Public vocabulary only.",
+  "description": "Node types, typed edge predicates, and player node properties. Public vocabulary only.",
   "license": "CC BY 4.0",
   "entityTypes": [
     "player",
@@ -21,6 +21,25 @@
       "subject": "player",
       "object": "player",
       "label": "dismissed by"
+    }
+  },
+  "nodeProperties": {
+    "player": {
+      "id": "Canonical slug (unique public identifier)",
+      "type": "Entity type — always \"player\"",
+      "name": "Full display name",
+      "canonical_url": "Canonical page on players.cricketstudio.ai",
+      "role": "Playing role — batter / bowler / all-rounder / wk-batter",
+      "battingHandedness": "Batting handedness — left or right",
+      "bowlingStyle": "Bowling style — e.g. \"right arm fast medium\", \"slow left arm orthodox\"",
+      "nationality": "Country of nationality",
+      "leagues": "Leagues with ball-by-ball coverage — e.g. [\"ipl\", \"mlc\"]"
+    },
+    "franchise": {
+      "id": "Team code as slug (e.g. \"rcb\", \"mi\")",
+      "type": "Entity type — always \"franchise\"",
+      "name": "Full franchise name",
+      "canonical_url": "Canonical team page on players.cricketstudio.ai"
     }
   }
 }

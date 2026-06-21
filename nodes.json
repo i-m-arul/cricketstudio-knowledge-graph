@@ -1,12 +1,54 @@
 {
-  "dataset": "cricket-knowledge-graph-sample",
-  "scope": "Single-franchise SAMPLE (Royal Challengers Bengaluru) — IPL 2026 + IPL-career matchup edges",
-  "note": "Sample teaser. The full graph is available via the CricketStudio API (gated). No external-ID crosswalk, no derivation method, no match/fixture identifiers.",
+  "dataset": "cricketstudio-knowledge-graph",
+  "scope": "All 10 IPL franchises — IPL 2026 + IPL-career matchup edges, player attributes from Wave 1+2",
+  "note": "Public sample of the CricketStudio cricket knowledge graph. No external-ID crosswalk, no derivation method, no match/fixture identifiers. Full graph via CricketStudio API.",
   "publisher": "CricketStudio",
   "homepage": "https://players.cricketstudio.ai",
   "license": "CC BY 4.0",
-  "count": 141,
+  "count": 256,
   "nodes": [
+    {
+      "id": "csk",
+      "type": "franchise",
+      "name": "Chennai Super Kings",
+      "canonical_url": "https://players.cricketstudio.ai/teams/csk"
+    },
+    {
+      "id": "dc",
+      "type": "franchise",
+      "name": "Delhi Capitals",
+      "canonical_url": "https://players.cricketstudio.ai/teams/dc"
+    },
+    {
+      "id": "gt",
+      "type": "franchise",
+      "name": "Gujarat Titans",
+      "canonical_url": "https://players.cricketstudio.ai/teams/gt"
+    },
+    {
+      "id": "kkr",
+      "type": "franchise",
+      "name": "Kolkata Knight Riders",
+      "canonical_url": "https://players.cricketstudio.ai/teams/kkr"
+    },
+    {
+      "id": "lsg",
+      "type": "franchise",
+      "name": "Lucknow Super Giants",
+      "canonical_url": "https://players.cricketstudio.ai/teams/lsg"
+    },
+    {
+      "id": "mi",
+      "type": "franchise",
+      "name": "Mumbai Indians",
+      "canonical_url": "https://players.cricketstudio.ai/teams/mi"
+    },
+    {
+      "id": "pbks",
+      "type": "franchise",
+      "name": "Punjab Kings",
+      "canonical_url": "https://players.cricketstudio.ai/teams/pbks"
+    },
     {
       "id": "rcb",
       "type": "franchise",
@@ -14,844 +56,3214 @@
       "canonical_url": "https://players.cricketstudio.ai/teams/rcb"
     },
     {
+      "id": "rr",
+      "type": "franchise",
+      "name": "Rajasthan Royals",
+      "canonical_url": "https://players.cricketstudio.ai/teams/rr"
+    },
+    {
+      "id": "srh",
+      "type": "franchise",
+      "name": "Sunrisers Hyderabad",
+      "canonical_url": "https://players.cricketstudio.ai/teams/srh"
+    },
+    {
+      "id": "pathum-nissanka",
+      "type": "player",
+      "name": "Pathum Nissanka",
+      "canonical_url": "https://players.cricketstudio.ai/players/pathum-nissanka",
+      "role": "batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
       "id": "xavier-bartlett",
       "type": "player",
       "name": "Xavier Bartlett",
-      "canonical_url": "https://players.cricketstudio.ai/players/xavier-bartlett"
+      "canonical_url": "https://players.cricketstudio.ai/players/xavier-bartlett",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "ruturaj-gaikwad",
+      "type": "player",
+      "name": "Ruturaj Gaikwad",
+      "canonical_url": "https://players.cricketstudio.ai/players/ruturaj-gaikwad",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "rahul-chahar",
       "type": "player",
       "name": "Rahul Chahar",
-      "canonical_url": "https://players.cricketstudio.ai/players/rahul-chahar"
+      "canonical_url": "https://players.cricketstudio.ai/players/rahul-chahar",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "shubman-gill",
+      "type": "player",
+      "name": "Shubman Gill",
+      "canonical_url": "https://players.cricketstudio.ai/players/shubman-gill",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "abhishek-sharma",
       "type": "player",
       "name": "Abhishek Sharma",
-      "canonical_url": "https://players.cricketstudio.ai/players/abhishek-sharma"
+      "canonical_url": "https://players.cricketstudio.ai/players/abhishek-sharma",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "yash-thakur",
       "type": "player",
       "name": "Yash Thakur",
-      "canonical_url": "https://players.cricketstudio.ai/players/yash-thakur"
+      "canonical_url": "https://players.cricketstudio.ai/players/yash-thakur",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "dewald-brevis",
+      "type": "player",
+      "name": "Dewald Brevis",
+      "canonical_url": "https://players.cricketstudio.ai/players/dewald-brevis",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "cameron-green",
       "type": "player",
       "name": "Cameron Green",
-      "canonical_url": "https://players.cricketstudio.ai/players/cameron-green"
+      "canonical_url": "https://players.cricketstudio.ai/players/cameron-green",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "riyan-parag",
       "type": "player",
       "name": "Riyan Parag",
-      "canonical_url": "https://players.cricketstudio.ai/players/riyan-parag"
+      "canonical_url": "https://players.cricketstudio.ai/players/riyan-parag",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ramandeep-singh",
+      "type": "player",
+      "name": "Ramandeep Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/ramandeep-singh",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "shivam-mavi",
       "type": "player",
       "name": "Shivam Mavi",
-      "canonical_url": "https://players.cricketstudio.ai/players/shivam-mavi"
+      "canonical_url": "https://players.cricketstudio.ai/players/shivam-mavi",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
     },
     {
       "id": "mayank-markande",
       "type": "player",
       "name": "Mayank Markande",
-      "canonical_url": "https://players.cricketstudio.ai/players/mayank-markande"
+      "canonical_url": "https://players.cricketstudio.ai/players/mayank-markande",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "kulwant-khejroliya",
       "type": "player",
       "name": "Kulwant Khejroliya",
-      "canonical_url": "https://players.cricketstudio.ai/players/kulwant-khejroliya"
+      "canonical_url": "https://players.cricketstudio.ai/players/kulwant-khejroliya",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "devdutt-padikkal",
       "type": "player",
       "name": "Devdutt Padikkal",
-      "canonical_url": "https://players.cricketstudio.ai/players/devdutt-padikkal"
+      "canonical_url": "https://players.cricketstudio.ai/players/devdutt-padikkal",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "raghu-sharma",
+      "type": "player",
+      "name": "Raghu Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/raghu-sharma",
+      "role": "all-rounder",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "kartik-tyagi",
       "type": "player",
       "name": "Kartik Tyagi",
-      "canonical_url": "https://players.cricketstudio.ai/players/kartik-tyagi"
+      "canonical_url": "https://players.cricketstudio.ai/players/kartik-tyagi",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "mukesh-choudhary",
       "type": "player",
       "name": "Mukesh Choudhary",
-      "canonical_url": "https://players.cricketstudio.ai/players/mukesh-choudhary"
+      "canonical_url": "https://players.cricketstudio.ai/players/mukesh-choudhary",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "arshdeep-singh",
       "type": "player",
       "name": "Arshdeep Singh",
-      "canonical_url": "https://players.cricketstudio.ai/players/arshdeep-singh"
+      "canonical_url": "https://players.cricketstudio.ai/players/arshdeep-singh",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "urvil-patel",
+      "type": "player",
+      "name": "Urvil Patel",
+      "canonical_url": "https://players.cricketstudio.ai/players/urvil-patel",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ashutosh-sharma",
+      "type": "player",
+      "name": "Ashutosh Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/ashutosh-sharma",
+      "role": "batter",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "arjun-tendulkar",
       "type": "player",
       "name": "Arjun Tendulkar",
-      "canonical_url": "https://players.cricketstudio.ai/players/arjun-tendulkar"
+      "canonical_url": "https://players.cricketstudio.ai/players/arjun-tendulkar",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ayush-badoni",
+      "type": "player",
+      "name": "Ayush Badoni",
+      "canonical_url": "https://players.cricketstudio.ai/players/ayush-badoni",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "nehal-wadhera",
+      "type": "player",
+      "name": "Nehal Wadhera",
+      "canonical_url": "https://players.cricketstudio.ai/players/nehal-wadhera",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "yashasvi-jaiswal",
+      "type": "player",
+      "name": "Yashasvi Jaiswal",
+      "canonical_url": "https://players.cricketstudio.ai/players/yashasvi-jaiswal",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "manimaran-siddharth",
       "type": "player",
       "name": "Manimaran Siddharth",
-      "canonical_url": "https://players.cricketstudio.ai/players/manimaran-siddharth"
+      "canonical_url": "https://players.cricketstudio.ai/players/manimaran-siddharth",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "sai-sudharsan",
+      "type": "player",
+      "name": "Sai Sudharsan",
+      "canonical_url": "https://players.cricketstudio.ai/players/sai-sudharsan",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "shahbaz-ahmed",
       "type": "player",
       "name": "Shahbaz Ahmed",
-      "canonical_url": "https://players.cricketstudio.ai/players/shahbaz-ahmed"
+      "canonical_url": "https://players.cricketstudio.ai/players/shahbaz-ahmed",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "yash-dayal",
       "type": "player",
       "name": "Yash Dayal",
-      "canonical_url": "https://players.cricketstudio.ai/players/yash-dayal"
+      "canonical_url": "https://players.cricketstudio.ai/players/yash-dayal",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
     },
     {
       "id": "auqib-nabi",
       "type": "player",
       "name": "Auqib Nabi",
-      "canonical_url": "https://players.cricketstudio.ai/players/auqib-nabi"
+      "canonical_url": "https://players.cricketstudio.ai/players/auqib-nabi",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "prabhsimran-singh",
+      "type": "player",
+      "name": "Prabhsimran Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/prabhsimran-singh",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "harpreet-brar",
       "type": "player",
       "name": "Harpreet Brar",
-      "canonical_url": "https://players.cricketstudio.ai/players/harpreet-brar"
+      "canonical_url": "https://players.cricketstudio.ai/players/harpreet-brar",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "tilak-varma",
+      "type": "player",
+      "name": "Tilak Varma",
+      "canonical_url": "https://players.cricketstudio.ai/players/tilak-varma",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "manav-suthar",
       "type": "player",
       "name": "Manav Suthar",
-      "canonical_url": "https://players.cricketstudio.ai/players/manav-suthar"
+      "canonical_url": "https://players.cricketstudio.ai/players/manav-suthar",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "anshul-kamboj",
       "type": "player",
       "name": "Anshul Kamboj",
-      "canonical_url": "https://players.cricketstudio.ai/players/anshul-kamboj"
+      "canonical_url": "https://players.cricketstudio.ai/players/anshul-kamboj",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "ravi-bishnoi",
       "type": "player",
       "name": "Ravi Bishnoi",
-      "canonical_url": "https://players.cricketstudio.ai/players/ravi-bishnoi"
+      "canonical_url": "https://players.cricketstudio.ai/players/ravi-bishnoi",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "priyansh-arya",
+      "type": "player",
+      "name": "Priyansh Arya",
+      "canonical_url": "https://players.cricketstudio.ai/players/priyansh-arya",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "sushant-mishra",
+      "type": "player",
+      "name": "Sushant Mishra",
+      "canonical_url": "https://players.cricketstudio.ai/players/sushant-mishra",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "abdul-samad",
+      "type": "player",
+      "name": "Abdul Samad",
+      "canonical_url": "https://players.cricketstudio.ai/players/abdul-samad",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "dhruv-jurel",
+      "type": "player",
+      "name": "Dhruv Jurel",
+      "canonical_url": "https://players.cricketstudio.ai/players/dhruv-jurel",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "sameer-rizvi",
+      "type": "player",
+      "name": "Sameer Rizvi",
+      "canonical_url": "https://players.cricketstudio.ai/players/sameer-rizvi",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "nitish-kumar-reddy",
       "type": "player",
       "name": "Nitish Kumar Reddy",
-      "canonical_url": "https://players.cricketstudio.ai/players/nitish-kumar-reddy"
+      "canonical_url": "https://players.cricketstudio.ai/players/nitish-kumar-reddy",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right-arm medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "noor-ahmad",
       "type": "player",
       "name": "Noor Ahmad",
-      "canonical_url": "https://players.cricketstudio.ai/players/noor-ahmad"
+      "canonical_url": "https://players.cricketstudio.ai/players/noor-ahmad",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "jacob-bethell",
       "type": "player",
       "name": "Jacob Bethell",
-      "canonical_url": "https://players.cricketstudio.ai/players/jacob-bethell"
+      "canonical_url": "https://players.cricketstudio.ai/players/jacob-bethell",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "akash-madhwal",
       "type": "player",
       "name": "Akash Madhwal",
-      "canonical_url": "https://players.cricketstudio.ai/players/akash-madhwal"
+      "canonical_url": "https://players.cricketstudio.ai/players/akash-madhwal",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "kumar-kushagra",
+      "type": "player",
+      "name": "Kumar Kushagra",
+      "canonical_url": "https://players.cricketstudio.ai/players/kumar-kushagra",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ashwani-kumar",
+      "type": "player",
+      "name": "Ashwani Kumar",
+      "canonical_url": "https://players.cricketstudio.ai/players/ashwani-kumar",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "vaibhav-arora",
       "type": "player",
       "name": "Vaibhav Arora",
-      "canonical_url": "https://players.cricketstudio.ai/players/vaibhav-arora"
+      "canonical_url": "https://players.cricketstudio.ai/players/vaibhav-arora",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "cooper-connolly",
+      "type": "player",
+      "name": "Cooper Connolly",
+      "canonical_url": "https://players.cricketstudio.ai/players/cooper-connolly",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "mlc"
+      ]
     },
     {
       "id": "harsh-dubey",
       "type": "player",
       "name": "Harsh Dubey",
-      "canonical_url": "https://players.cricketstudio.ai/players/harsh-dubey"
+      "canonical_url": "https://players.cricketstudio.ai/players/harsh-dubey",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "umran-malik",
       "type": "player",
       "name": "Umran Malik",
-      "canonical_url": "https://players.cricketstudio.ai/players/umran-malik"
+      "canonical_url": "https://players.cricketstudio.ai/players/umran-malik",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "shubham-dubey",
+      "type": "player",
+      "name": "Shubham Dubey",
+      "canonical_url": "https://players.cricketstudio.ai/players/shubham-dubey",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "gurjapneet-singh",
+      "type": "player",
+      "name": "Gurjapneet Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/gurjapneet-singh",
+      "role": "bowler",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "abishek-porel",
+      "type": "player",
+      "name": "Abishek Porel",
+      "canonical_url": "https://players.cricketstudio.ai/players/abishek-porel",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "naman-dhir",
       "type": "player",
       "name": "Naman Dhir",
-      "canonical_url": "https://players.cricketstudio.ai/players/naman-dhir"
+      "canonical_url": "https://players.cricketstudio.ai/players/naman-dhir",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "gurnoor-brar",
+      "type": "player",
+      "name": "Gurnoor Brar",
+      "canonical_url": "https://players.cricketstudio.ai/players/gurnoor-brar",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "angkrish-raghuvanshi",
+      "type": "player",
+      "name": "Angkrish Raghuvanshi",
+      "canonical_url": "https://players.cricketstudio.ai/players/angkrish-raghuvanshi",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "raj-angad-bawa",
       "type": "player",
       "name": "Raj Angad Bawa",
-      "canonical_url": "https://players.cricketstudio.ai/players/raj-angad-bawa"
+      "canonical_url": "https://players.cricketstudio.ai/players/raj-angad-bawa",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "nishant-sindhu",
+      "type": "player",
+      "name": "Nishant Sindhu",
+      "canonical_url": "https://players.cricketstudio.ai/players/nishant-sindhu",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "mayank-yadav",
       "type": "player",
       "name": "Mayank Yadav",
-      "canonical_url": "https://players.cricketstudio.ai/players/mayank-yadav"
+      "canonical_url": "https://players.cricketstudio.ai/players/mayank-yadav",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ashok-sharma",
+      "type": "player",
+      "name": "Ashok Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/ashok-sharma",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "akshat-raghuwanshi",
+      "type": "player",
+      "name": "Akshat Raghuwanshi",
+      "canonical_url": "https://players.cricketstudio.ai/players/akshat-raghuwanshi",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "eshan-malinga",
       "type": "player",
       "name": "Eshan Malinga",
-      "canonical_url": "https://players.cricketstudio.ai/players/eshan-malinga"
+      "canonical_url": "https://players.cricketstudio.ai/players/eshan-malinga",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "musheer-khan",
       "type": "player",
       "name": "Musheer Khan",
-      "canonical_url": "https://players.cricketstudio.ai/players/musheer-khan"
+      "canonical_url": "https://players.cricketstudio.ai/players/musheer-khan",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "suryansh-shedge",
+      "type": "player",
+      "name": "Suryansh Shedge",
+      "canonical_url": "https://players.cricketstudio.ai/players/suryansh-shedge",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "sakib-hussain",
       "type": "player",
       "name": "Sakib Hussain",
-      "canonical_url": "https://players.cricketstudio.ai/players/sakib-hussain"
+      "canonical_url": "https://players.cricketstudio.ai/players/sakib-hussain",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "robin-minz",
+      "type": "player",
+      "name": "Robin Minz",
+      "canonical_url": "https://players.cricketstudio.ai/players/robin-minz",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "prince-yadav",
       "type": "player",
       "name": "Prince Yadav",
-      "canonical_url": "https://players.cricketstudio.ai/players/prince-yadav"
+      "canonical_url": "https://players.cricketstudio.ai/players/prince-yadav",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "suyash-sharma",
       "type": "player",
       "name": "Suyash Sharma",
-      "canonical_url": "https://players.cricketstudio.ai/players/suyash-sharma"
+      "canonical_url": "https://players.cricketstudio.ai/players/suyash-sharma",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "prashant-veer",
+      "type": "player",
+      "name": "Prashant Veer",
+      "canonical_url": "https://players.cricketstudio.ai/players/prashant-veer",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "vaibhav-suryavanshi",
+      "type": "player",
+      "name": "Vaibhav Suryavanshi",
+      "canonical_url": "https://players.cricketstudio.ai/players/vaibhav-suryavanshi",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "aniket-verma",
+      "type": "player",
+      "name": "Aniket Verma",
+      "canonical_url": "https://players.cricketstudio.ai/players/aniket-verma",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ayush-mhatre",
+      "type": "player",
+      "name": "Ayush Mhatre",
+      "canonical_url": "https://players.cricketstudio.ai/players/ayush-mhatre",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "kartik-sharma",
+      "type": "player",
+      "name": "Kartik Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/kartik-sharma",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "le-plunkett",
+      "type": "player",
+      "name": "LE Plunkett",
+      "canonical_url": "https://players.cricketstudio.ai/players/le-plunkett",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "d-wiese",
+      "type": "player",
+      "name": "D Wiese",
+      "canonical_url": "https://players.cricketstudio.ai/players/d-wiese",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "j-theron",
+      "type": "player",
+      "name": "J Theron",
+      "canonical_url": "https://players.cricketstudio.ai/players/j-theron",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "sunil-narine",
       "type": "player",
       "name": "Sunil Narine",
-      "canonical_url": "https://players.cricketstudio.ai/players/sunil-narine"
+      "canonical_url": "https://players.cricketstudio.ai/players/sunil-narine",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "ka-pollard",
       "type": "player",
       "name": "KA Pollard",
-      "canonical_url": "https://players.cricketstudio.ai/players/ka-pollard"
+      "canonical_url": "https://players.cricketstudio.ai/players/ka-pollard",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "swapnil-singh",
+      "type": "player",
+      "name": "Swapnil Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/swapnil-singh",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
     },
     {
       "id": "ravindra-jadeja",
       "type": "player",
       "name": "Ravindra Jadeja",
-      "canonical_url": "https://players.cricketstudio.ai/players/ravindra-jadeja"
+      "canonical_url": "https://players.cricketstudio.ai/players/ravindra-jadeja",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ravi-singh",
+      "type": "player",
+      "name": "Ravi Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/ravi-singh",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "virat-kohli",
       "type": "player",
       "name": "Virat Kohli",
-      "canonical_url": "https://players.cricketstudio.ai/players/virat-kohli"
+      "canonical_url": "https://players.cricketstudio.ai/players/virat-kohli",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "wd-parnell",
       "type": "player",
       "name": "WD Parnell",
-      "canonical_url": "https://players.cricketstudio.ai/players/wd-parnell"
+      "canonical_url": "https://players.cricketstudio.ai/players/wd-parnell",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "mitchell-marsh",
       "type": "player",
       "name": "Mitchell Marsh",
-      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-marsh"
+      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-marsh",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "ad-russell",
       "type": "player",
       "name": "AD Russell",
-      "canonical_url": "https://players.cricketstudio.ai/players/ad-russell"
+      "canonical_url": "https://players.cricketstudio.ai/players/ad-russell",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "cj-anderson",
       "type": "player",
       "name": "CJ Anderson",
-      "canonical_url": "https://players.cricketstudio.ai/players/cj-anderson"
+      "canonical_url": "https://players.cricketstudio.ai/players/cj-anderson",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "trent-boult",
       "type": "player",
       "name": "Trent Boult",
-      "canonical_url": "https://players.cricketstudio.ai/players/trent-boult"
+      "canonical_url": "https://players.cricketstudio.ai/players/trent-boult",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "ajinkya-rahane",
+      "type": "player",
+      "name": "Ajinkya Rahane",
+      "canonical_url": "https://players.cricketstudio.ai/players/ajinkya-rahane",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "josh-hazlewood",
       "type": "player",
       "name": "Josh Hazlewood",
-      "canonical_url": "https://players.cricketstudio.ai/players/josh-hazlewood"
+      "canonical_url": "https://players.cricketstudio.ai/players/josh-hazlewood",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "manish-pandey",
+      "type": "player",
+      "name": "Manish Pandey",
+      "canonical_url": "https://players.cricketstudio.ai/players/manish-pandey",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "sikandar-raza",
       "type": "player",
       "name": "Sikandar Raza",
-      "canonical_url": "https://players.cricketstudio.ai/players/sikandar-raza"
+      "canonical_url": "https://players.cricketstudio.ai/players/sikandar-raza",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "jos-buttler",
+      "type": "player",
+      "name": "Jos Buttler",
+      "canonical_url": "https://players.cricketstudio.ai/players/jos-buttler",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "david-miller",
+      "type": "player",
+      "name": "David Miller",
+      "canonical_url": "https://players.cricketstudio.ai/players/david-miller",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "marcus-stoinis",
       "type": "player",
       "name": "Marcus Stoinis",
-      "canonical_url": "https://players.cricketstudio.ai/players/marcus-stoinis"
+      "canonical_url": "https://players.cricketstudio.ai/players/marcus-stoinis",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "gj-maxwell",
       "type": "player",
       "name": "GJ Maxwell",
-      "canonical_url": "https://players.cricketstudio.ai/players/gj-maxwell"
+      "canonical_url": "https://players.cricketstudio.ai/players/gj-maxwell",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "bhuvneshwar-kumar",
       "type": "player",
       "name": "Bhuvneshwar Kumar",
-      "canonical_url": "https://players.cricketstudio.ai/players/bhuvneshwar-kumar"
+      "canonical_url": "https://players.cricketstudio.ai/players/bhuvneshwar-kumar",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "mg-bracewell",
+      "type": "player",
+      "name": "MG Bracewell",
+      "canonical_url": "https://players.cricketstudio.ai/players/mg-bracewell",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "d-pretorius",
       "type": "player",
       "name": "D Pretorius",
-      "canonical_url": "https://players.cricketstudio.ai/players/d-pretorius"
+      "canonical_url": "https://players.cricketstudio.ai/players/d-pretorius",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "mustafizur-rahman",
       "type": "player",
       "name": "Mustafizur Rahman",
-      "canonical_url": "https://players.cricketstudio.ai/players/mustafizur-rahman"
+      "canonical_url": "https://players.cricketstudio.ai/players/mustafizur-rahman",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
     },
     {
       "id": "saurabh-dubey",
       "type": "player",
       "name": "Saurabh Dubey",
-      "canonical_url": "https://players.cricketstudio.ai/players/saurabh-dubey"
+      "canonical_url": "https://players.cricketstudio.ai/players/saurabh-dubey",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "rohit-sharma",
+      "type": "player",
+      "name": "Rohit Sharma",
+      "canonical_url": "https://players.cricketstudio.ai/players/rohit-sharma",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "kr-mayers",
+      "type": "player",
+      "name": "KR Mayers",
+      "canonical_url": "https://players.cricketstudio.ai/players/kr-mayers",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "david-payne",
       "type": "player",
       "name": "David Payne",
-      "canonical_url": "https://players.cricketstudio.ai/players/david-payne"
+      "canonical_url": "https://players.cricketstudio.ai/players/david-payne",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "shashank-singh",
       "type": "player",
       "name": "Shashank Singh",
-      "canonical_url": "https://players.cricketstudio.ai/players/shashank-singh"
+      "canonical_url": "https://players.cricketstudio.ai/players/shashank-singh",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "quinton-de-kock",
+      "type": "player",
+      "name": "Quinton de Kock",
+      "canonical_url": "https://players.cricketstudio.ai/players/quinton-de-kock",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "a-zampa",
       "type": "player",
       "name": "A Zampa",
-      "canonical_url": "https://players.cricketstudio.ai/players/a-zampa"
+      "canonical_url": "https://players.cricketstudio.ai/players/a-zampa",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "dj-mitchell",
+      "type": "player",
+      "name": "DJ Mitchell",
+      "canonical_url": "https://players.cricketstudio.ai/players/dj-mitchell",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "arshad-khan",
       "type": "player",
       "name": "Arshad Khan",
-      "canonical_url": "https://players.cricketstudio.ai/players/arshad-khan"
+      "canonical_url": "https://players.cricketstudio.ai/players/arshad-khan",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "harshal-patel",
       "type": "player",
       "name": "Harshal Patel",
-      "canonical_url": "https://players.cricketstudio.ai/players/harshal-patel"
+      "canonical_url": "https://players.cricketstudio.ai/players/harshal-patel",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "jaydev-unadkat",
       "type": "player",
       "name": "Jaydev Unadkat",
-      "canonical_url": "https://players.cricketstudio.ai/players/jaydev-unadkat"
+      "canonical_url": "https://players.cricketstudio.ai/players/jaydev-unadkat",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "jason-holder",
       "type": "player",
       "name": "Jason Holder",
-      "canonical_url": "https://players.cricketstudio.ai/players/jason-holder"
+      "canonical_url": "https://players.cricketstudio.ai/players/jason-holder",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "karun-nair",
+      "type": "player",
+      "name": "Karun Nair",
+      "canonical_url": "https://players.cricketstudio.ai/players/karun-nair",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "liam-livingstone",
       "type": "player",
       "name": "Liam Livingstone",
-      "canonical_url": "https://players.cricketstudio.ai/players/liam-livingstone"
+      "canonical_url": "https://players.cricketstudio.ai/players/liam-livingstone",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "lokesh-rahul",
+      "type": "player",
+      "name": "Lokesh Rahul",
+      "canonical_url": "https://players.cricketstudio.ai/players/lokesh-rahul",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "rahul-tewatia",
       "type": "player",
       "name": "Rahul Tewatia",
-      "canonical_url": "https://players.cricketstudio.ai/players/rahul-tewatia"
+      "canonical_url": "https://players.cricketstudio.ai/players/rahul-tewatia",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "sanju-samson",
+      "type": "player",
+      "name": "Sanju Samson",
+      "canonical_url": "https://players.cricketstudio.ai/players/sanju-samson",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "yuzvendra-chahal",
       "type": "player",
       "name": "Yuzvendra Chahal",
-      "canonical_url": "https://players.cricketstudio.ai/players/yuzvendra-chahal"
+      "canonical_url": "https://players.cricketstudio.ai/players/yuzvendra-chahal",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "heinrich-klaasen",
+      "type": "player",
+      "name": "Heinrich Klaasen",
+      "canonical_url": "https://players.cricketstudio.ai/players/heinrich-klaasen",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "dasun-shanaka",
+      "type": "player",
+      "name": "Dasun Shanaka",
+      "canonical_url": "https://players.cricketstudio.ai/players/dasun-shanaka",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "sandeep-sharma",
       "type": "player",
       "name": "Sandeep Sharma",
-      "canonical_url": "https://players.cricketstudio.ai/players/sandeep-sharma"
+      "canonical_url": "https://players.cricketstudio.ai/players/sandeep-sharma",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "suryakumar-yadav",
+      "type": "player",
+      "name": "Suryakumar Yadav",
+      "canonical_url": "https://players.cricketstudio.ai/players/suryakumar-yadav",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "deepak-chahar",
       "type": "player",
       "name": "Deepak Chahar",
-      "canonical_url": "https://players.cricketstudio.ai/players/deepak-chahar"
+      "canonical_url": "https://players.cricketstudio.ai/players/deepak-chahar",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "jayant-yadav",
       "type": "player",
       "name": "Jayant Yadav",
-      "canonical_url": "https://players.cricketstudio.ai/players/jayant-yadav"
+      "canonical_url": "https://players.cricketstudio.ai/players/jayant-yadav",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
     },
     {
       "id": "aj-tye",
       "type": "player",
       "name": "AJ Tye",
-      "canonical_url": "https://players.cricketstudio.ai/players/aj-tye"
+      "canonical_url": "https://players.cricketstudio.ai/players/aj-tye",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "krunal-pandya",
       "type": "player",
       "name": "Krunal Pandya",
-      "canonical_url": "https://players.cricketstudio.ai/players/krunal-pandya"
+      "canonical_url": "https://players.cricketstudio.ai/players/krunal-pandya",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "shardul-thakur",
       "type": "player",
       "name": "Shardul Thakur",
-      "canonical_url": "https://players.cricketstudio.ai/players/shardul-thakur"
+      "canonical_url": "https://players.cricketstudio.ai/players/shardul-thakur",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "george-linde",
+      "type": "player",
+      "name": "George Linde",
+      "canonical_url": "https://players.cricketstudio.ai/players/george-linde",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "mlc"
+      ]
     },
     {
       "id": "mohammed-shami",
       "type": "player",
       "name": "Mohammed Shami",
-      "canonical_url": "https://players.cricketstudio.ai/players/mohammed-shami"
+      "canonical_url": "https://players.cricketstudio.ai/players/mohammed-shami",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "anrich-nortje",
       "type": "player",
       "name": "Anrich Nortje",
-      "canonical_url": "https://players.cricketstudio.ai/players/anrich-nortje"
+      "canonical_url": "https://players.cricketstudio.ai/players/anrich-nortje",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "pat-cummins",
       "type": "player",
       "name": "Pat Cummins",
-      "canonical_url": "https://players.cricketstudio.ai/players/pat-cummins"
+      "canonical_url": "https://players.cricketstudio.ai/players/pat-cummins",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "lockie-ferguson",
       "type": "player",
       "name": "Lockie Ferguson",
-      "canonical_url": "https://players.cricketstudio.ai/players/lockie-ferguson"
+      "canonical_url": "https://players.cricketstudio.ai/players/lockie-ferguson",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "mitchell-santner",
       "type": "player",
       "name": "Mitchell Santner",
-      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-santner"
+      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-santner",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "matt-henry",
       "type": "player",
       "name": "Matt Henry",
-      "canonical_url": "https://players.cricketstudio.ai/players/matt-henry"
+      "canonical_url": "https://players.cricketstudio.ai/players/matt-henry",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "jamie-overton",
       "type": "player",
       "name": "Jamie Overton",
-      "canonical_url": "https://players.cricketstudio.ai/players/jamie-overton"
+      "canonical_url": "https://players.cricketstudio.ai/players/jamie-overton",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "dj-bravo",
       "type": "player",
       "name": "DJ Bravo",
-      "canonical_url": "https://players.cricketstudio.ai/players/dj-bravo"
+      "canonical_url": "https://players.cricketstudio.ai/players/dj-bravo",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "travis-head",
+      "type": "player",
+      "name": "Travis Head",
+      "canonical_url": "https://players.cricketstudio.ai/players/travis-head",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "akeal-hosein",
       "type": "player",
       "name": "Akeal Hosein",
-      "canonical_url": "https://players.cricketstudio.ai/players/akeal-hosein"
+      "canonical_url": "https://players.cricketstudio.ai/players/akeal-hosein",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "aj-finch",
+      "type": "player",
+      "name": "AJ Finch",
+      "canonical_url": "https://players.cricketstudio.ai/players/aj-finch",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "lungi-ngidi",
       "type": "player",
       "name": "Lungi Ngidi",
-      "canonical_url": "https://players.cricketstudio.ai/players/lungi-ngidi"
+      "canonical_url": "https://players.cricketstudio.ai/players/lungi-ngidi",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "jacob-duffy",
       "type": "player",
       "name": "Jacob Duffy",
-      "canonical_url": "https://players.cricketstudio.ai/players/jacob-duffy"
+      "canonical_url": "https://players.cricketstudio.ai/players/jacob-duffy",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "kagiso-rabada",
       "type": "player",
       "name": "Kagiso Rabada",
-      "canonical_url": "https://players.cricketstudio.ai/players/kagiso-rabada"
+      "canonical_url": "https://players.cricketstudio.ai/players/kagiso-rabada",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "dushmantha-chameera",
       "type": "player",
       "name": "Dushmantha Chameera",
-      "canonical_url": "https://players.cricketstudio.ai/players/dushmantha-chameera"
+      "canonical_url": "https://players.cricketstudio.ai/players/dushmantha-chameera",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "axar-patel",
       "type": "player",
       "name": "Axar Patel",
-      "canonical_url": "https://players.cricketstudio.ai/players/axar-patel"
+      "canonical_url": "https://players.cricketstudio.ai/players/axar-patel",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "kuldeep-yadav",
       "type": "player",
       "name": "Kuldeep Yadav",
-      "canonical_url": "https://players.cricketstudio.ai/players/kuldeep-yadav"
+      "canonical_url": "https://players.cricketstudio.ai/players/kuldeep-yadav",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm chinaman",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "shakib-al-hasan",
       "type": "player",
       "name": "Shakib Al Hasan",
-      "canonical_url": "https://players.cricketstudio.ai/players/shakib-al-hasan"
+      "canonical_url": "https://players.cricketstudio.ai/players/shakib-al-hasan",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "corbin-bosch",
       "type": "player",
       "name": "Corbin Bosch",
-      "canonical_url": "https://players.cricketstudio.ai/players/corbin-bosch"
+      "canonical_url": "https://players.cricketstudio.ai/players/corbin-bosch",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "tristan-stubbs",
+      "type": "player",
+      "name": "Tristan Stubbs",
+      "canonical_url": "https://players.cricketstudio.ai/players/tristan-stubbs",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "g-coetzee",
       "type": "player",
       "name": "G Coetzee",
-      "canonical_url": "https://players.cricketstudio.ai/players/g-coetzee"
+      "canonical_url": "https://players.cricketstudio.ai/players/g-coetzee",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "mc-henriques",
       "type": "player",
       "name": "MC Henriques",
-      "canonical_url": "https://players.cricketstudio.ai/players/mc-henriques"
+      "canonical_url": "https://players.cricketstudio.ai/players/mc-henriques",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "aiden-markram",
       "type": "player",
       "name": "Aiden Markram",
-      "canonical_url": "https://players.cricketstudio.ai/players/aiden-markram"
+      "canonical_url": "https://players.cricketstudio.ai/players/aiden-markram",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "nicholas-pooran",
+      "type": "player",
+      "name": "Nicholas Pooran",
+      "canonical_url": "https://players.cricketstudio.ai/players/nicholas-pooran",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "nitish-rana",
       "type": "player",
       "name": "Nitish Rana",
-      "canonical_url": "https://players.cricketstudio.ai/players/nitish-rana"
+      "canonical_url": "https://players.cricketstudio.ai/players/nitish-rana",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "matthew-short",
+      "type": "player",
+      "name": "Matthew Short",
+      "canonical_url": "https://players.cricketstudio.ai/players/matthew-short",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "ryan-rickelton",
+      "type": "player",
+      "name": "Ryan Rickelton",
+      "canonical_url": "https://players.cricketstudio.ai/players/ryan-rickelton",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "hardik-pandya",
       "type": "player",
       "name": "Hardik Pandya",
-      "canonical_url": "https://players.cricketstudio.ai/players/hardik-pandya"
+      "canonical_url": "https://players.cricketstudio.ai/players/hardik-pandya",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right-arm medium-fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "jasprit-bumrah",
       "type": "player",
       "name": "Jasprit Bumrah",
-      "canonical_url": "https://players.cricketstudio.ai/players/jasprit-bumrah"
+      "canonical_url": "https://players.cricketstudio.ai/players/jasprit-bumrah",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right-arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "kyle-jamieson",
       "type": "player",
       "name": "Kyle Jamieson",
-      "canonical_url": "https://players.cricketstudio.ai/players/kyle-jamieson"
+      "canonical_url": "https://players.cricketstudio.ai/players/kyle-jamieson",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "tim-seifert",
+      "type": "player",
+      "name": "Tim Seifert",
+      "canonical_url": "https://players.cricketstudio.ai/players/tim-seifert",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "shreyas-iyer",
+      "type": "player",
+      "name": "Shreyas Iyer",
+      "canonical_url": "https://players.cricketstudio.ai/players/shreyas-iyer",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "sarfaraz-khan",
+      "type": "player",
+      "name": "Sarfaraz Khan",
+      "canonical_url": "https://players.cricketstudio.ai/players/sarfaraz-khan",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "philip-salt",
       "type": "player",
       "name": "Philip Salt",
-      "canonical_url": "https://players.cricketstudio.ai/players/philip-salt"
+      "canonical_url": "https://players.cricketstudio.ai/players/philip-salt",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "jofra-archer",
       "type": "player",
       "name": "Jofra Archer",
-      "canonical_url": "https://players.cricketstudio.ai/players/jofra-archer"
+      "canonical_url": "https://players.cricketstudio.ai/players/jofra-archer",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "fa-allen",
       "type": "player",
       "name": "FA Allen",
-      "canonical_url": "https://players.cricketstudio.ai/players/fa-allen"
+      "canonical_url": "https://players.cricketstudio.ai/players/fa-allen",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "shimron-hetmyer",
+      "type": "player",
+      "name": "Shimron Hetmyer",
+      "canonical_url": "https://players.cricketstudio.ai/players/shimron-hetmyer",
+      "role": "batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "romario-shepherd",
       "type": "player",
       "name": "Romario Shepherd",
-      "canonical_url": "https://players.cricketstudio.ai/players/romario-shepherd"
+      "canonical_url": "https://players.cricketstudio.ai/players/romario-shepherd",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "kma-paul",
       "type": "player",
       "name": "KMA Paul",
-      "canonical_url": "https://players.cricketstudio.ai/players/kma-paul"
+      "canonical_url": "https://players.cricketstudio.ai/players/kma-paul",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "avesh-khan",
       "type": "player",
       "name": "Avesh Khan",
-      "canonical_url": "https://players.cricketstudio.ai/players/avesh-khan"
+      "canonical_url": "https://players.cricketstudio.ai/players/avesh-khan",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "marco-jansen",
       "type": "player",
       "name": "Marco Jansen",
-      "canonical_url": "https://players.cricketstudio.ai/players/marco-jansen"
+      "canonical_url": "https://players.cricketstudio.ai/players/marco-jansen",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "left arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
+    },
+    {
+      "id": "donovan-ferreira",
+      "type": "player",
+      "name": "Donovan Ferreira",
+      "canonical_url": "https://players.cricketstudio.ai/players/donovan-ferreira",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "navdeep-saini",
       "type": "player",
       "name": "Navdeep Saini",
-      "canonical_url": "https://players.cricketstudio.ai/players/navdeep-saini"
+      "canonical_url": "https://players.cricketstudio.ai/players/navdeep-saini",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "shivam-dube",
       "type": "player",
       "name": "Shivam Dube",
-      "canonical_url": "https://players.cricketstudio.ai/players/shivam-dube"
+      "canonical_url": "https://players.cricketstudio.ai/players/shivam-dube",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "washington-sundar",
       "type": "player",
       "name": "Washington Sundar",
-      "canonical_url": "https://players.cricketstudio.ai/players/washington-sundar"
+      "canonical_url": "https://players.cricketstudio.ai/players/washington-sundar",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "shahrukh-khan",
+      "type": "player",
+      "name": "Shahrukh Khan",
+      "canonical_url": "https://players.cricketstudio.ai/players/shahrukh-khan",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "ishan-kishan",
+      "type": "player",
+      "name": "Ishan Kishan",
+      "canonical_url": "https://players.cricketstudio.ai/players/ishan-kishan",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "jitesh-sharma",
       "type": "player",
       "name": "Jitesh Sharma",
-      "canonical_url": "https://players.cricketstudio.ai/players/jitesh-sharma"
+      "canonical_url": "https://players.cricketstudio.ai/players/jitesh-sharma",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "rinku-singh",
+      "type": "player",
+      "name": "Rinku Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/rinku-singh",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "vishnu-vinod",
+      "type": "player",
+      "name": "Vishnu Vinod",
+      "canonical_url": "https://players.cricketstudio.ai/players/vishnu-vinod",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "praveen-dubey",
+      "type": "player",
+      "name": "Praveen Dubey",
+      "canonical_url": "https://players.cricketstudio.ai/players/praveen-dubey",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
     },
     {
       "id": "vijaykumar-vyshak",
       "type": "player",
       "name": "Vijaykumar Vyshak",
-      "canonical_url": "https://players.cricketstudio.ai/players/vijaykumar-vyshak"
+      "canonical_url": "https://players.cricketstudio.ai/players/vijaykumar-vyshak",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "kamindu-mendis",
+      "type": "player",
+      "name": "Kamindu Mendis",
+      "canonical_url": "https://players.cricketstudio.ai/players/kamindu-mendis",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "dilshan-madushanka",
+      "type": "player",
+      "name": "Dilshan Madushanka",
+      "canonical_url": "https://players.cricketstudio.ai/players/dilshan-madushanka",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "naveen-ul-haq",
       "type": "player",
       "name": "Naveen-ul-Haq",
-      "canonical_url": "https://players.cricketstudio.ai/players/naveen-ul-haq"
+      "canonical_url": "https://players.cricketstudio.ai/players/naveen-ul-haq",
+      "leagues": [
+        "mlc"
+      ]
     },
     {
       "id": "rashid-khan",
       "type": "player",
       "name": "Rashid Khan",
-      "canonical_url": "https://players.cricketstudio.ai/players/rashid-khan"
+      "canonical_url": "https://players.cricketstudio.ai/players/rashid-khan",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "thangarasu-natarajan",
       "type": "player",
       "name": "Thangarasu Natarajan",
-      "canonical_url": "https://players.cricketstudio.ai/players/thangarasu-natarajan"
+      "canonical_url": "https://players.cricketstudio.ai/players/thangarasu-natarajan",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "himmat-singh",
+      "type": "player",
+      "name": "Himmat Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/himmat-singh",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "azmatullah-omarzai",
       "type": "player",
       "name": "Azmatullah Omarzai",
-      "canonical_url": "https://players.cricketstudio.ai/players/azmatullah-omarzai"
+      "canonical_url": "https://players.cricketstudio.ai/players/azmatullah-omarzai",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right-arm fast-medium",
+      "nationality": "Afghan",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "rovman-powell",
+      "type": "player",
+      "name": "Rovman Powell",
+      "canonical_url": "https://players.cricketstudio.ai/players/rovman-powell",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "tushar-deshpande",
       "type": "player",
       "name": "Tushar Deshpande",
-      "canonical_url": "https://players.cricketstudio.ai/players/tushar-deshpande"
+      "canonical_url": "https://players.cricketstudio.ai/players/tushar-deshpande",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "glenn-phillips",
+      "type": "player",
+      "name": "Glenn Phillips",
+      "canonical_url": "https://players.cricketstudio.ai/players/glenn-phillips",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "rajat-patidar",
       "type": "player",
       "name": "Rajat Patidar",
-      "canonical_url": "https://players.cricketstudio.ai/players/rajat-patidar"
+      "canonical_url": "https://players.cricketstudio.ai/players/rajat-patidar",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "dr-sams",
       "type": "player",
       "name": "DR Sams",
-      "canonical_url": "https://players.cricketstudio.ai/players/dr-sams"
+      "canonical_url": "https://players.cricketstudio.ai/players/dr-sams",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "blessing-muzarabani",
+      "type": "player",
+      "name": "Blessing Muzarabani",
+      "canonical_url": "https://players.cricketstudio.ai/players/blessing-muzarabani",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "venkatesh-iyer",
       "type": "player",
       "name": "Venkatesh Iyer",
-      "canonical_url": "https://players.cricketstudio.ai/players/venkatesh-iyer"
+      "canonical_url": "https://players.cricketstudio.ai/players/venkatesh-iyer",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "tim-david",
       "type": "player",
       "name": "Tim David",
-      "canonical_url": "https://players.cricketstudio.ai/players/tim-david"
+      "canonical_url": "https://players.cricketstudio.ai/players/tim-david",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "will-jacks",
       "type": "player",
       "name": "Will Jacks",
-      "canonical_url": "https://players.cricketstudio.ai/players/will-jacks"
+      "canonical_url": "https://players.cricketstudio.ai/players/will-jacks",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "oc-mccoy",
       "type": "player",
       "name": "OC McCoy",
-      "canonical_url": "https://players.cricketstudio.ai/players/oc-mccoy"
+      "canonical_url": "https://players.cricketstudio.ai/players/oc-mccoy",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "sherfane-rutherford",
+      "type": "player",
+      "name": "Sherfane Rutherford",
+      "canonical_url": "https://players.cricketstudio.ai/players/sherfane-rutherford",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "prasidh-krishna",
       "type": "player",
       "name": "Prasidh Krishna",
-      "canonical_url": "https://players.cricketstudio.ai/players/prasidh-krishna"
+      "canonical_url": "https://players.cricketstudio.ai/players/prasidh-krishna",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "mohsin-khan",
+      "type": "player",
+      "name": "Mohsin Khan",
+      "canonical_url": "https://players.cricketstudio.ai/players/mohsin-khan",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "mukesh-kumar",
       "type": "player",
       "name": "Mukesh Kumar",
-      "canonical_url": "https://players.cricketstudio.ai/players/mukesh-kumar"
+      "canonical_url": "https://players.cricketstudio.ai/players/mukesh-kumar",
+      "role": "bowler",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "j-little",
       "type": "player",
       "name": "J Little",
-      "canonical_url": "https://players.cricketstudio.ai/players/j-little"
+      "canonical_url": "https://players.cricketstudio.ai/players/j-little",
+      "leagues": [
+        "mlc"
+      ]
+    },
+    {
+      "id": "rishabh-pant",
+      "type": "player",
+      "name": "Rishabh Pant",
+      "canonical_url": "https://players.cricketstudio.ai/players/rishabh-pant",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
     },
     {
       "id": "mohammed-siraj",
       "type": "player",
       "name": "Mohammed Siraj",
-      "canonical_url": "https://players.cricketstudio.ai/players/mohammed-siraj"
+      "canonical_url": "https://players.cricketstudio.ai/players/mohammed-siraj",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right-arm fast-medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "zeeshan-ansari",
+      "type": "player",
+      "name": "Zeeshan Ansari",
+      "canonical_url": "https://players.cricketstudio.ai/players/zeeshan-ansari",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl-historical"
+      ]
     },
     {
       "id": "khaleel-ahmed",
       "type": "player",
       "name": "Khaleel Ahmed",
-      "canonical_url": "https://players.cricketstudio.ai/players/khaleel-ahmed"
+      "canonical_url": "https://players.cricketstudio.ai/players/khaleel-ahmed",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical"
+      ]
+    },
+    {
+      "id": "finn-allen",
+      "type": "player",
+      "name": "Finn Allen",
+      "canonical_url": "https://players.cricketstudio.ai/players/finn-allen",
+      "role": "batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "mlc"
+      ]
     },
     {
       "id": "nandre-burger",
       "type": "player",
       "name": "Nandre Burger",
-      "canonical_url": "https://players.cricketstudio.ai/players/nandre-burger"
+      "canonical_url": "https://players.cricketstudio.ai/players/nandre-burger",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "ipl-historical",
+        "mlc"
+      ]
     },
     {
       "id": "abhinandan-singh",
       "type": "player",
       "name": "Abhinandan Singh",
-      "canonical_url": "https://players.cricketstudio.ai/players/abhinandan-singh"
+      "canonical_url": "https://players.cricketstudio.ai/players/abhinandan-singh",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "adam-milne",
       "type": "player",
       "name": "Adam Milne",
-      "canonical_url": "https://players.cricketstudio.ai/players/adam-milne"
+      "canonical_url": "https://players.cricketstudio.ai/players/adam-milne",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl",
+        "mlc"
+      ]
+    },
+    {
+      "id": "akash-maharaj-singh",
+      "type": "player",
+      "name": "Akash Maharaj Singh",
+      "canonical_url": "https://players.cricketstudio.ai/players/akash-maharaj-singh",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right-arm medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "am-ghazanfar",
       "type": "player",
       "name": "AM Ghazanfar",
-      "canonical_url": "https://players.cricketstudio.ai/players/am-ghazanfar"
+      "canonical_url": "https://players.cricketstudio.ai/players/am-ghazanfar",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "anukul-roy",
       "type": "player",
       "name": "Anukul Roy",
-      "canonical_url": "https://players.cricketstudio.ai/players/anukul-roy"
+      "canonical_url": "https://players.cricketstudio.ai/players/anukul-roy",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "arshin-kulkarni",
+      "type": "player",
+      "name": "Arshin Kulkarni",
+      "canonical_url": "https://players.cricketstudio.ai/players/arshin-kulkarni",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "ben-dwarshuis",
+      "type": "player",
+      "name": "Ben Dwarshuis",
+      "canonical_url": "https://players.cricketstudio.ai/players/ben-dwarshuis",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left-arm fast-medium",
+      "nationality": "Australian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "brijesh-sharma",
       "type": "player",
       "name": "Brijesh Sharma",
-      "canonical_url": "https://players.cricketstudio.ai/players/brijesh-sharma"
+      "canonical_url": "https://players.cricketstudio.ai/players/brijesh-sharma",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "danish-malewar",
+      "type": "player",
+      "name": "Danish Malewar",
+      "canonical_url": "https://players.cricketstudio.ai/players/danish-malewar",
+      "role": "batter",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "digvesh-rathi",
       "type": "player",
       "name": "Digvesh Rathi",
-      "canonical_url": "https://players.cricketstudio.ai/players/digvesh-rathi"
+      "canonical_url": "https://players.cricketstudio.ai/players/digvesh-rathi",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "ishant-sharma",
       "type": "player",
       "name": "Ishant Sharma",
-      "canonical_url": "https://players.cricketstudio.ai/players/ishant-sharma"
+      "canonical_url": "https://players.cricketstudio.ai/players/ishant-sharma",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian"
+    },
+    {
+      "id": "josh-inglis",
+      "type": "player",
+      "name": "Josh Inglis",
+      "canonical_url": "https://players.cricketstudio.ai/players/josh-inglis",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Australian",
+      "leagues": [
+        "ipl",
+        "mlc"
+      ]
+    },
+    {
+      "id": "krish-bhagat",
+      "type": "player",
+      "name": "Krish Bhagat",
+      "canonical_url": "https://players.cricketstudio.ai/players/krish-bhagat",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "kuldeep-sen",
       "type": "player",
       "name": "Kuldeep Sen",
-      "canonical_url": "https://players.cricketstudio.ai/players/kuldeep-sen"
+      "canonical_url": "https://players.cricketstudio.ai/players/kuldeep-sen",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian"
+    },
+    {
+      "id": "kwena-maphaka",
+      "type": "player",
+      "name": "Kwena Maphaka",
+      "canonical_url": "https://players.cricketstudio.ai/players/kwena-maphaka",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian"
+    },
+    {
+      "id": "lhuan-dre-pretorius",
+      "type": "player",
+      "name": "Lhuan-dre Pretorius",
+      "canonical_url": "https://players.cricketstudio.ai/players/lhuan-dre-pretorius",
+      "role": "wk-batter",
+      "battingHandedness": "left",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "luke-wood",
+      "type": "player",
+      "name": "Luke Wood",
+      "canonical_url": "https://players.cricketstudio.ai/players/luke-wood",
+      "role": "all-rounder",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast medium",
+      "nationality": "Indian"
+    },
+    {
+      "id": "madhav-tiwari",
+      "type": "player",
+      "name": "Madhav Tiwari",
+      "canonical_url": "https://players.cricketstudio.ai/players/madhav-tiwari",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right-arm fast-medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "matheesha-pathirana",
       "type": "player",
       "name": "Matheesha Pathirana",
-      "canonical_url": "https://players.cricketstudio.ai/players/matheesha-pathirana"
+      "canonical_url": "https://players.cricketstudio.ai/players/matheesha-pathirana",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "mitchell-starc",
       "type": "player",
       "name": "Mitchell Starc",
-      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-starc"
+      "canonical_url": "https://players.cricketstudio.ai/players/mitchell-starc",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left arm fast",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "mukul-dchoudhary",
+      "type": "player",
+      "name": "Mukul DChoudhary",
+      "canonical_url": "https://players.cricketstudio.ai/players/mukul-dchoudhary",
+      "role": "batter",
+      "battingHandedness": "right",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "nuwan-thushara",
       "type": "player",
       "name": "Nuwan Thushara",
-      "canonical_url": "https://players.cricketstudio.ai/players/nuwan-thushara"
+      "canonical_url": "https://players.cricketstudio.ai/players/nuwan-thushara",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "nationality": "Indian"
+    },
+    {
+      "id": "praful-hinge",
+      "type": "player",
+      "name": "Praful Hinge",
+      "canonical_url": "https://players.cricketstudio.ai/players/praful-hinge",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "ramakrishna-ghosh",
+      "type": "player",
+      "name": "Ramakrishna Ghosh",
+      "canonical_url": "https://players.cricketstudio.ai/players/ramakrishna-ghosh",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "rasikh-salam-dar",
       "type": "player",
       "name": "Rasikh Salam Dar",
-      "canonical_url": "https://players.cricketstudio.ai/players/rasikh-salam-dar"
+      "canonical_url": "https://players.cricketstudio.ai/players/rasikh-salam-dar",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm fast medium",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "ravichandran-smaran",
+      "type": "player",
+      "name": "Ravichandran Smaran",
+      "canonical_url": "https://players.cricketstudio.ai/players/ravichandran-smaran",
+      "role": "batter",
+      "battingHandedness": "left",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "sahil-parakh",
+      "type": "player",
+      "name": "Sahil Parakh",
+      "canonical_url": "https://players.cricketstudio.ai/players/sahil-parakh",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "sai-kishore",
       "type": "player",
       "name": "Sai Kishore",
-      "canonical_url": "https://players.cricketstudio.ai/players/sai-kishore"
+      "canonical_url": "https://players.cricketstudio.ai/players/sai-kishore",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "slow left arm orthodox",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "salil-arora",
+      "type": "player",
+      "name": "Salil Arora",
+      "canonical_url": "https://players.cricketstudio.ai/players/salil-arora",
+      "role": "batter",
+      "battingHandedness": "right",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "shivang-kumar",
       "type": "player",
       "name": "Shivang Kumar",
-      "canonical_url": "https://players.cricketstudio.ai/players/shivang-kumar"
+      "canonical_url": "https://players.cricketstudio.ai/players/shivang-kumar",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "slow left arm orthodox",
+      "leagues": [
+        "ipl"
+      ]
     },
     {
       "id": "shreyas-gopal",
       "type": "player",
       "name": "Shreyas Gopal",
-      "canonical_url": "https://players.cricketstudio.ai/players/shreyas-gopal"
+      "canonical_url": "https://players.cricketstudio.ai/players/shreyas-gopal",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "nationality": "Indian"
     },
     {
       "id": "spencer-johnson",
       "type": "player",
       "name": "Spencer Johnson",
-      "canonical_url": "https://players.cricketstudio.ai/players/spencer-johnson"
+      "canonical_url": "https://players.cricketstudio.ai/players/spencer-johnson",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "bowlingStyle": "left-arm fast",
+      "nationality": "Australian",
+      "leagues": [
+        "ipl",
+        "mlc"
+      ]
+    },
+    {
+      "id": "tejasvi-dahiya",
+      "type": "player",
+      "name": "Tejasvi Dahiya",
+      "canonical_url": "https://players.cricketstudio.ai/players/tejasvi-dahiya",
+      "role": "wk-batter",
+      "battingHandedness": "right",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "tripurana-vijay",
+      "type": "player",
+      "name": "Tripurana Vijay",
+      "canonical_url": "https://players.cricketstudio.ai/players/tripurana-vijay",
+      "role": "all-rounder",
+      "battingHandedness": "right",
+      "bowlingStyle": "right arm offbreak",
+      "nationality": "Indian",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "varun-chakaravarthy",
+      "type": "player",
+      "name": "Varun Chakaravarthy",
+      "canonical_url": "https://players.cricketstudio.ai/players/varun-chakaravarthy",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak googly",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "vignesh-puthur",
+      "type": "player",
+      "name": "Vignesh Puthur",
+      "canonical_url": "https://players.cricketstudio.ai/players/vignesh-puthur",
+      "role": "all-rounder",
+      "nationality": "Indian"
     },
     {
       "id": "vipraj-nigam",
       "type": "player",
       "name": "Vipraj Nigam",
-      "canonical_url": "https://players.cricketstudio.ai/players/vipraj-nigam"
+      "canonical_url": "https://players.cricketstudio.ai/players/vipraj-nigam",
+      "role": "bowler",
+      "battingHandedness": "right",
+      "bowlingStyle": "legbreak",
+      "leagues": [
+        "ipl"
+      ]
+    },
+    {
+      "id": "yash-raj-punja",
+      "type": "player",
+      "name": "Yash Raj Punja",
+      "canonical_url": "https://players.cricketstudio.ai/players/yash-raj-punja",
+      "role": "bowler",
+      "battingHandedness": "left",
+      "leagues": [
+        "ipl"
+      ]
     }
   ]
 }

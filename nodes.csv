@@ -1,142 +1,257 @@
-id,type,name,canonical_url
-rcb,franchise,Royal Challengers Bengaluru,https://players.cricketstudio.ai/teams/rcb
-xavier-bartlett,player,Xavier Bartlett,https://players.cricketstudio.ai/players/xavier-bartlett
-rahul-chahar,player,Rahul Chahar,https://players.cricketstudio.ai/players/rahul-chahar
-abhishek-sharma,player,Abhishek Sharma,https://players.cricketstudio.ai/players/abhishek-sharma
-yash-thakur,player,Yash Thakur,https://players.cricketstudio.ai/players/yash-thakur
-cameron-green,player,Cameron Green,https://players.cricketstudio.ai/players/cameron-green
-riyan-parag,player,Riyan Parag,https://players.cricketstudio.ai/players/riyan-parag
-shivam-mavi,player,Shivam Mavi,https://players.cricketstudio.ai/players/shivam-mavi
-mayank-markande,player,Mayank Markande,https://players.cricketstudio.ai/players/mayank-markande
-kulwant-khejroliya,player,Kulwant Khejroliya,https://players.cricketstudio.ai/players/kulwant-khejroliya
-devdutt-padikkal,player,Devdutt Padikkal,https://players.cricketstudio.ai/players/devdutt-padikkal
-kartik-tyagi,player,Kartik Tyagi,https://players.cricketstudio.ai/players/kartik-tyagi
-mukesh-choudhary,player,Mukesh Choudhary,https://players.cricketstudio.ai/players/mukesh-choudhary
-arshdeep-singh,player,Arshdeep Singh,https://players.cricketstudio.ai/players/arshdeep-singh
-arjun-tendulkar,player,Arjun Tendulkar,https://players.cricketstudio.ai/players/arjun-tendulkar
-manimaran-siddharth,player,Manimaran Siddharth,https://players.cricketstudio.ai/players/manimaran-siddharth
-shahbaz-ahmed,player,Shahbaz Ahmed,https://players.cricketstudio.ai/players/shahbaz-ahmed
-yash-dayal,player,Yash Dayal,https://players.cricketstudio.ai/players/yash-dayal
-auqib-nabi,player,Auqib Nabi,https://players.cricketstudio.ai/players/auqib-nabi
-harpreet-brar,player,Harpreet Brar,https://players.cricketstudio.ai/players/harpreet-brar
-manav-suthar,player,Manav Suthar,https://players.cricketstudio.ai/players/manav-suthar
-anshul-kamboj,player,Anshul Kamboj,https://players.cricketstudio.ai/players/anshul-kamboj
-ravi-bishnoi,player,Ravi Bishnoi,https://players.cricketstudio.ai/players/ravi-bishnoi
-nitish-kumar-reddy,player,Nitish Kumar Reddy,https://players.cricketstudio.ai/players/nitish-kumar-reddy
-noor-ahmad,player,Noor Ahmad,https://players.cricketstudio.ai/players/noor-ahmad
-jacob-bethell,player,Jacob Bethell,https://players.cricketstudio.ai/players/jacob-bethell
-akash-madhwal,player,Akash Madhwal,https://players.cricketstudio.ai/players/akash-madhwal
-vaibhav-arora,player,Vaibhav Arora,https://players.cricketstudio.ai/players/vaibhav-arora
-harsh-dubey,player,Harsh Dubey,https://players.cricketstudio.ai/players/harsh-dubey
-umran-malik,player,Umran Malik,https://players.cricketstudio.ai/players/umran-malik
-naman-dhir,player,Naman Dhir,https://players.cricketstudio.ai/players/naman-dhir
-raj-angad-bawa,player,Raj Angad Bawa,https://players.cricketstudio.ai/players/raj-angad-bawa
-mayank-yadav,player,Mayank Yadav,https://players.cricketstudio.ai/players/mayank-yadav
-eshan-malinga,player,Eshan Malinga,https://players.cricketstudio.ai/players/eshan-malinga
-musheer-khan,player,Musheer Khan,https://players.cricketstudio.ai/players/musheer-khan
-sakib-hussain,player,Sakib Hussain,https://players.cricketstudio.ai/players/sakib-hussain
-prince-yadav,player,Prince Yadav,https://players.cricketstudio.ai/players/prince-yadav
-suyash-sharma,player,Suyash Sharma,https://players.cricketstudio.ai/players/suyash-sharma
-sunil-narine,player,Sunil Narine,https://players.cricketstudio.ai/players/sunil-narine
-ka-pollard,player,KA Pollard,https://players.cricketstudio.ai/players/ka-pollard
-ravindra-jadeja,player,Ravindra Jadeja,https://players.cricketstudio.ai/players/ravindra-jadeja
-virat-kohli,player,Virat Kohli,https://players.cricketstudio.ai/players/virat-kohli
-wd-parnell,player,WD Parnell,https://players.cricketstudio.ai/players/wd-parnell
-mitchell-marsh,player,Mitchell Marsh,https://players.cricketstudio.ai/players/mitchell-marsh
-ad-russell,player,AD Russell,https://players.cricketstudio.ai/players/ad-russell
-cj-anderson,player,CJ Anderson,https://players.cricketstudio.ai/players/cj-anderson
-trent-boult,player,Trent Boult,https://players.cricketstudio.ai/players/trent-boult
-josh-hazlewood,player,Josh Hazlewood,https://players.cricketstudio.ai/players/josh-hazlewood
-sikandar-raza,player,Sikandar Raza,https://players.cricketstudio.ai/players/sikandar-raza
-marcus-stoinis,player,Marcus Stoinis,https://players.cricketstudio.ai/players/marcus-stoinis
-gj-maxwell,player,GJ Maxwell,https://players.cricketstudio.ai/players/gj-maxwell
-bhuvneshwar-kumar,player,Bhuvneshwar Kumar,https://players.cricketstudio.ai/players/bhuvneshwar-kumar
-d-pretorius,player,D Pretorius,https://players.cricketstudio.ai/players/d-pretorius
-mustafizur-rahman,player,Mustafizur Rahman,https://players.cricketstudio.ai/players/mustafizur-rahman
-saurabh-dubey,player,Saurabh Dubey,https://players.cricketstudio.ai/players/saurabh-dubey
-david-payne,player,David Payne,https://players.cricketstudio.ai/players/david-payne
-shashank-singh,player,Shashank Singh,https://players.cricketstudio.ai/players/shashank-singh
-a-zampa,player,A Zampa,https://players.cricketstudio.ai/players/a-zampa
-arshad-khan,player,Arshad Khan,https://players.cricketstudio.ai/players/arshad-khan
-harshal-patel,player,Harshal Patel,https://players.cricketstudio.ai/players/harshal-patel
-jaydev-unadkat,player,Jaydev Unadkat,https://players.cricketstudio.ai/players/jaydev-unadkat
-jason-holder,player,Jason Holder,https://players.cricketstudio.ai/players/jason-holder
-liam-livingstone,player,Liam Livingstone,https://players.cricketstudio.ai/players/liam-livingstone
-rahul-tewatia,player,Rahul Tewatia,https://players.cricketstudio.ai/players/rahul-tewatia
-yuzvendra-chahal,player,Yuzvendra Chahal,https://players.cricketstudio.ai/players/yuzvendra-chahal
-sandeep-sharma,player,Sandeep Sharma,https://players.cricketstudio.ai/players/sandeep-sharma
-deepak-chahar,player,Deepak Chahar,https://players.cricketstudio.ai/players/deepak-chahar
-jayant-yadav,player,Jayant Yadav,https://players.cricketstudio.ai/players/jayant-yadav
-aj-tye,player,AJ Tye,https://players.cricketstudio.ai/players/aj-tye
-krunal-pandya,player,Krunal Pandya,https://players.cricketstudio.ai/players/krunal-pandya
-shardul-thakur,player,Shardul Thakur,https://players.cricketstudio.ai/players/shardul-thakur
-mohammed-shami,player,Mohammed Shami,https://players.cricketstudio.ai/players/mohammed-shami
-anrich-nortje,player,Anrich Nortje,https://players.cricketstudio.ai/players/anrich-nortje
-pat-cummins,player,Pat Cummins,https://players.cricketstudio.ai/players/pat-cummins
-lockie-ferguson,player,Lockie Ferguson,https://players.cricketstudio.ai/players/lockie-ferguson
-mitchell-santner,player,Mitchell Santner,https://players.cricketstudio.ai/players/mitchell-santner
-matt-henry,player,Matt Henry,https://players.cricketstudio.ai/players/matt-henry
-jamie-overton,player,Jamie Overton,https://players.cricketstudio.ai/players/jamie-overton
-dj-bravo,player,DJ Bravo,https://players.cricketstudio.ai/players/dj-bravo
-akeal-hosein,player,Akeal Hosein,https://players.cricketstudio.ai/players/akeal-hosein
-lungi-ngidi,player,Lungi Ngidi,https://players.cricketstudio.ai/players/lungi-ngidi
-jacob-duffy,player,Jacob Duffy,https://players.cricketstudio.ai/players/jacob-duffy
-kagiso-rabada,player,Kagiso Rabada,https://players.cricketstudio.ai/players/kagiso-rabada
-dushmantha-chameera,player,Dushmantha Chameera,https://players.cricketstudio.ai/players/dushmantha-chameera
-axar-patel,player,Axar Patel,https://players.cricketstudio.ai/players/axar-patel
-kuldeep-yadav,player,Kuldeep Yadav,https://players.cricketstudio.ai/players/kuldeep-yadav
-shakib-al-hasan,player,Shakib Al Hasan,https://players.cricketstudio.ai/players/shakib-al-hasan
-corbin-bosch,player,Corbin Bosch,https://players.cricketstudio.ai/players/corbin-bosch
-g-coetzee,player,G Coetzee,https://players.cricketstudio.ai/players/g-coetzee
-mc-henriques,player,MC Henriques,https://players.cricketstudio.ai/players/mc-henriques
-aiden-markram,player,Aiden Markram,https://players.cricketstudio.ai/players/aiden-markram
-nitish-rana,player,Nitish Rana,https://players.cricketstudio.ai/players/nitish-rana
-hardik-pandya,player,Hardik Pandya,https://players.cricketstudio.ai/players/hardik-pandya
-jasprit-bumrah,player,Jasprit Bumrah,https://players.cricketstudio.ai/players/jasprit-bumrah
-kyle-jamieson,player,Kyle Jamieson,https://players.cricketstudio.ai/players/kyle-jamieson
-philip-salt,player,Philip Salt,https://players.cricketstudio.ai/players/philip-salt
-jofra-archer,player,Jofra Archer,https://players.cricketstudio.ai/players/jofra-archer
-fa-allen,player,FA Allen,https://players.cricketstudio.ai/players/fa-allen
-romario-shepherd,player,Romario Shepherd,https://players.cricketstudio.ai/players/romario-shepherd
-kma-paul,player,KMA Paul,https://players.cricketstudio.ai/players/kma-paul
-avesh-khan,player,Avesh Khan,https://players.cricketstudio.ai/players/avesh-khan
-marco-jansen,player,Marco Jansen,https://players.cricketstudio.ai/players/marco-jansen
-navdeep-saini,player,Navdeep Saini,https://players.cricketstudio.ai/players/navdeep-saini
-shivam-dube,player,Shivam Dube,https://players.cricketstudio.ai/players/shivam-dube
-washington-sundar,player,Washington Sundar,https://players.cricketstudio.ai/players/washington-sundar
-jitesh-sharma,player,Jitesh Sharma,https://players.cricketstudio.ai/players/jitesh-sharma
-vijaykumar-vyshak,player,Vijaykumar Vyshak,https://players.cricketstudio.ai/players/vijaykumar-vyshak
-naveen-ul-haq,player,Naveen-ul-Haq,https://players.cricketstudio.ai/players/naveen-ul-haq
-rashid-khan,player,Rashid Khan,https://players.cricketstudio.ai/players/rashid-khan
-thangarasu-natarajan,player,Thangarasu Natarajan,https://players.cricketstudio.ai/players/thangarasu-natarajan
-azmatullah-omarzai,player,Azmatullah Omarzai,https://players.cricketstudio.ai/players/azmatullah-omarzai
-tushar-deshpande,player,Tushar Deshpande,https://players.cricketstudio.ai/players/tushar-deshpande
-rajat-patidar,player,Rajat Patidar,https://players.cricketstudio.ai/players/rajat-patidar
-dr-sams,player,DR Sams,https://players.cricketstudio.ai/players/dr-sams
-venkatesh-iyer,player,Venkatesh Iyer,https://players.cricketstudio.ai/players/venkatesh-iyer
-tim-david,player,Tim David,https://players.cricketstudio.ai/players/tim-david
-will-jacks,player,Will Jacks,https://players.cricketstudio.ai/players/will-jacks
-oc-mccoy,player,OC McCoy,https://players.cricketstudio.ai/players/oc-mccoy
-prasidh-krishna,player,Prasidh Krishna,https://players.cricketstudio.ai/players/prasidh-krishna
-mukesh-kumar,player,Mukesh Kumar,https://players.cricketstudio.ai/players/mukesh-kumar
-j-little,player,J Little,https://players.cricketstudio.ai/players/j-little
-mohammed-siraj,player,Mohammed Siraj,https://players.cricketstudio.ai/players/mohammed-siraj
-khaleel-ahmed,player,Khaleel Ahmed,https://players.cricketstudio.ai/players/khaleel-ahmed
-nandre-burger,player,Nandre Burger,https://players.cricketstudio.ai/players/nandre-burger
-abhinandan-singh,player,Abhinandan Singh,https://players.cricketstudio.ai/players/abhinandan-singh
-adam-milne,player,Adam Milne,https://players.cricketstudio.ai/players/adam-milne
-am-ghazanfar,player,AM Ghazanfar,https://players.cricketstudio.ai/players/am-ghazanfar
-anukul-roy,player,Anukul Roy,https://players.cricketstudio.ai/players/anukul-roy
-brijesh-sharma,player,Brijesh Sharma,https://players.cricketstudio.ai/players/brijesh-sharma
-digvesh-rathi,player,Digvesh Rathi,https://players.cricketstudio.ai/players/digvesh-rathi
-ishant-sharma,player,Ishant Sharma,https://players.cricketstudio.ai/players/ishant-sharma
-kuldeep-sen,player,Kuldeep Sen,https://players.cricketstudio.ai/players/kuldeep-sen
-matheesha-pathirana,player,Matheesha Pathirana,https://players.cricketstudio.ai/players/matheesha-pathirana
-mitchell-starc,player,Mitchell Starc,https://players.cricketstudio.ai/players/mitchell-starc
-nuwan-thushara,player,Nuwan Thushara,https://players.cricketstudio.ai/players/nuwan-thushara
-rasikh-salam-dar,player,Rasikh Salam Dar,https://players.cricketstudio.ai/players/rasikh-salam-dar
-sai-kishore,player,Sai Kishore,https://players.cricketstudio.ai/players/sai-kishore
-shivang-kumar,player,Shivang Kumar,https://players.cricketstudio.ai/players/shivang-kumar
-shreyas-gopal,player,Shreyas Gopal,https://players.cricketstudio.ai/players/shreyas-gopal
-spencer-johnson,player,Spencer Johnson,https://players.cricketstudio.ai/players/spencer-johnson
-vipraj-nigam,player,Vipraj Nigam,https://players.cricketstudio.ai/players/vipraj-nigam
+id,type,name,canonical_url,role,battingHandedness,bowlingStyle,nationality,leagues
+csk,franchise,Chennai Super Kings,https://players.cricketstudio.ai/teams/csk,,,,,
+dc,franchise,Delhi Capitals,https://players.cricketstudio.ai/teams/dc,,,,,
+gt,franchise,Gujarat Titans,https://players.cricketstudio.ai/teams/gt,,,,,
+kkr,franchise,Kolkata Knight Riders,https://players.cricketstudio.ai/teams/kkr,,,,,
+lsg,franchise,Lucknow Super Giants,https://players.cricketstudio.ai/teams/lsg,,,,,
+mi,franchise,Mumbai Indians,https://players.cricketstudio.ai/teams/mi,,,,,
+pbks,franchise,Punjab Kings,https://players.cricketstudio.ai/teams/pbks,,,,,
+rcb,franchise,Royal Challengers Bengaluru,https://players.cricketstudio.ai/teams/rcb,,,,,
+rr,franchise,Rajasthan Royals,https://players.cricketstudio.ai/teams/rr,,,,,
+srh,franchise,Sunrisers Hyderabad,https://players.cricketstudio.ai/teams/srh,,,,,
+pathum-nissanka,player,Pathum Nissanka,https://players.cricketstudio.ai/players/pathum-nissanka,batter,right,,Indian,ipl
+xavier-bartlett,player,Xavier Bartlett,https://players.cricketstudio.ai/players/xavier-bartlett,bowler,right,right arm fast medium,Indian,ipl|ipl-historical|mlc
+ruturaj-gaikwad,player,Ruturaj Gaikwad,https://players.cricketstudio.ai/players/ruturaj-gaikwad,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+rahul-chahar,player,Rahul Chahar,https://players.cricketstudio.ai/players/rahul-chahar,bowler,right,legbreak googly,Indian,ipl|ipl-historical
+shubman-gill,player,Shubman Gill,https://players.cricketstudio.ai/players/shubman-gill,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+abhishek-sharma,player,Abhishek Sharma,https://players.cricketstudio.ai/players/abhishek-sharma,batter,left,slow left arm orthodox,Indian,ipl|ipl-historical
+yash-thakur,player,Yash Thakur,https://players.cricketstudio.ai/players/yash-thakur,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+dewald-brevis,player,Dewald Brevis,https://players.cricketstudio.ai/players/dewald-brevis,batter,right,legbreak,Indian,ipl|ipl-historical|mlc
+cameron-green,player,Cameron Green,https://players.cricketstudio.ai/players/cameron-green,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical
+riyan-parag,player,Riyan Parag,https://players.cricketstudio.ai/players/riyan-parag,all-rounder,right,legbreak,Indian,ipl|ipl-historical
+ramandeep-singh,player,Ramandeep Singh,https://players.cricketstudio.ai/players/ramandeep-singh,batter,right,right arm fast medium,Indian,ipl|ipl-historical
+shivam-mavi,player,Shivam Mavi,https://players.cricketstudio.ai/players/shivam-mavi,bowler,right,right arm fast medium,Indian,ipl-historical
+mayank-markande,player,Mayank Markande,https://players.cricketstudio.ai/players/mayank-markande,bowler,right,legbreak,Indian,ipl|ipl-historical
+kulwant-khejroliya,player,Kulwant Khejroliya,https://players.cricketstudio.ai/players/kulwant-khejroliya,bowler,left,left arm fast medium,Indian,ipl|ipl-historical
+devdutt-padikkal,player,Devdutt Padikkal,https://players.cricketstudio.ai/players/devdutt-padikkal,batter,left,right arm offbreak,Indian,ipl|ipl-historical
+raghu-sharma,player,Raghu Sharma,https://players.cricketstudio.ai/players/raghu-sharma,all-rounder,,,Indian,ipl
+kartik-tyagi,player,Kartik Tyagi,https://players.cricketstudio.ai/players/kartik-tyagi,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+mukesh-choudhary,player,Mukesh Choudhary,https://players.cricketstudio.ai/players/mukesh-choudhary,bowler,left,left arm fast medium,Indian,ipl|ipl-historical
+arshdeep-singh,player,Arshdeep Singh,https://players.cricketstudio.ai/players/arshdeep-singh,bowler,left,left arm fast medium,Indian,ipl|ipl-historical
+urvil-patel,player,Urvil Patel,https://players.cricketstudio.ai/players/urvil-patel,wk-batter,right,,Indian,ipl|ipl-historical
+ashutosh-sharma,player,Ashutosh Sharma,https://players.cricketstudio.ai/players/ashutosh-sharma,batter,,,Indian,ipl|ipl-historical
+arjun-tendulkar,player,Arjun Tendulkar,https://players.cricketstudio.ai/players/arjun-tendulkar,bowler,left,left arm fast medium,Indian,ipl|ipl-historical
+ayush-badoni,player,Ayush Badoni,https://players.cricketstudio.ai/players/ayush-badoni,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+nehal-wadhera,player,Nehal Wadhera,https://players.cricketstudio.ai/players/nehal-wadhera,batter,left,legbreak,Indian,ipl|ipl-historical
+yashasvi-jaiswal,player,Yashasvi Jaiswal,https://players.cricketstudio.ai/players/yashasvi-jaiswal,batter,left,legbreak,Indian,ipl|ipl-historical
+manimaran-siddharth,player,Manimaran Siddharth,https://players.cricketstudio.ai/players/manimaran-siddharth,bowler,right,slow left arm orthodox,Indian,ipl|ipl-historical
+sai-sudharsan,player,Sai Sudharsan,https://players.cricketstudio.ai/players/sai-sudharsan,batter,left,legbreak,Indian,ipl|ipl-historical
+shahbaz-ahmed,player,Shahbaz Ahmed,https://players.cricketstudio.ai/players/shahbaz-ahmed,bowler,left,slow left arm orthodox,,ipl|ipl-historical
+yash-dayal,player,Yash Dayal,https://players.cricketstudio.ai/players/yash-dayal,bowler,left,left arm fast medium,Indian,ipl-historical
+auqib-nabi,player,Auqib Nabi,https://players.cricketstudio.ai/players/auqib-nabi,bowler,right,right arm fast medium,Indian,ipl
+prabhsimran-singh,player,Prabhsimran Singh,https://players.cricketstudio.ai/players/prabhsimran-singh,wk-batter,right,,Indian,ipl|ipl-historical
+harpreet-brar,player,Harpreet Brar,https://players.cricketstudio.ai/players/harpreet-brar,bowler,left,slow left arm orthodox,Indian,ipl|ipl-historical
+tilak-varma,player,Tilak Varma,https://players.cricketstudio.ai/players/tilak-varma,batter,left,right arm offbreak,Indian,ipl|ipl-historical
+manav-suthar,player,Manav Suthar,https://players.cricketstudio.ai/players/manav-suthar,bowler,left,slow left arm orthodox,Indian,ipl|ipl-historical
+anshul-kamboj,player,Anshul Kamboj,https://players.cricketstudio.ai/players/anshul-kamboj,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical
+ravi-bishnoi,player,Ravi Bishnoi,https://players.cricketstudio.ai/players/ravi-bishnoi,bowler,right,legbreak googly,Indian,ipl|ipl-historical
+priyansh-arya,player,Priyansh Arya,https://players.cricketstudio.ai/players/priyansh-arya,batter,left,right arm offbreak,,ipl|ipl-historical
+sushant-mishra,player,Sushant Mishra,https://players.cricketstudio.ai/players/sushant-mishra,bowler,left,left arm fast medium,Indian,ipl
+abdul-samad,player,Abdul Samad,https://players.cricketstudio.ai/players/abdul-samad,all-rounder,right,legbreak,Indian,ipl|ipl-historical
+dhruv-jurel,player,Dhruv Jurel,https://players.cricketstudio.ai/players/dhruv-jurel,wk-batter,right,,Indian,ipl|ipl-historical
+sameer-rizvi,player,Sameer Rizvi,https://players.cricketstudio.ai/players/sameer-rizvi,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+nitish-kumar-reddy,player,Nitish Kumar Reddy,https://players.cricketstudio.ai/players/nitish-kumar-reddy,all-rounder,right,right-arm medium,Indian,ipl|ipl-historical
+noor-ahmad,player,Noor Ahmad,https://players.cricketstudio.ai/players/noor-ahmad,bowler,left,slow left arm orthodox,Indian,ipl|ipl-historical|mlc
+jacob-bethell,player,Jacob Bethell,https://players.cricketstudio.ai/players/jacob-bethell,all-rounder,left,slow left arm orthodox,Indian,ipl|ipl-historical
+akash-madhwal,player,Akash Madhwal,https://players.cricketstudio.ai/players/akash-madhwal,bowler,right,right arm fast medium,Indian,ipl-historical
+kumar-kushagra,player,Kumar Kushagra,https://players.cricketstudio.ai/players/kumar-kushagra,wk-batter,right,,Indian,ipl|ipl-historical
+ashwani-kumar,player,Ashwani Kumar,https://players.cricketstudio.ai/players/ashwani-kumar,bowler,left,left arm fast medium,Indian,ipl|ipl-historical
+vaibhav-arora,player,Vaibhav Arora,https://players.cricketstudio.ai/players/vaibhav-arora,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+cooper-connolly,player,Cooper Connolly,https://players.cricketstudio.ai/players/cooper-connolly,all-rounder,left,slow left arm orthodox,Indian,ipl|mlc
+harsh-dubey,player,Harsh Dubey,https://players.cricketstudio.ai/players/harsh-dubey,bowler,left,slow left arm orthodox,Indian,ipl|ipl-historical
+umran-malik,player,Umran Malik,https://players.cricketstudio.ai/players/umran-malik,bowler,right,right arm fast medium,Indian,ipl-historical
+shubham-dubey,player,Shubham Dubey,https://players.cricketstudio.ai/players/shubham-dubey,batter,left,right arm offbreak,Indian,ipl|ipl-historical
+gurjapneet-singh,player,Gurjapneet Singh,https://players.cricketstudio.ai/players/gurjapneet-singh,bowler,,,Indian,ipl
+abishek-porel,player,Abishek Porel,https://players.cricketstudio.ai/players/abishek-porel,wk-batter,left,,Indian,ipl|ipl-historical
+naman-dhir,player,Naman Dhir,https://players.cricketstudio.ai/players/naman-dhir,batter,right,right arm offbreak,,ipl|ipl-historical
+gurnoor-brar,player,Gurnoor Brar,https://players.cricketstudio.ai/players/gurnoor-brar,bowler,left,right arm fast,Indian,ipl-historical
+angkrish-raghuvanshi,player,Angkrish Raghuvanshi,https://players.cricketstudio.ai/players/angkrish-raghuvanshi,batter,right,slow left arm orthodox,Indian,ipl|ipl-historical
+raj-angad-bawa,player,Raj Angad Bawa,https://players.cricketstudio.ai/players/raj-angad-bawa,all-rounder,left,right arm fast medium,Indian,ipl|ipl-historical
+nishant-sindhu,player,Nishant Sindhu,https://players.cricketstudio.ai/players/nishant-sindhu,all-rounder,left,slow left arm orthodox,Indian,ipl
+mayank-yadav,player,Mayank Yadav,https://players.cricketstudio.ai/players/mayank-yadav,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+ashok-sharma,player,Ashok Sharma,https://players.cricketstudio.ai/players/ashok-sharma,bowler,right,right arm fast medium,,ipl
+akshat-raghuwanshi,player,Akshat Raghuwanshi,https://players.cricketstudio.ai/players/akshat-raghuwanshi,batter,right,right arm offbreak,Indian,ipl
+eshan-malinga,player,Eshan Malinga,https://players.cricketstudio.ai/players/eshan-malinga,bowler,left,right arm fast medium,Indian,ipl|ipl-historical
+musheer-khan,player,Musheer Khan,https://players.cricketstudio.ai/players/musheer-khan,all-rounder,right,slow left arm orthodox,Indian,ipl-historical
+suryansh-shedge,player,Suryansh Shedge,https://players.cricketstudio.ai/players/suryansh-shedge,batter,right,right arm fast medium,Indian,ipl|ipl-historical
+sakib-hussain,player,Sakib Hussain,https://players.cricketstudio.ai/players/sakib-hussain,all-rounder,right,right arm fast medium,Indian,ipl
+robin-minz,player,Robin Minz,https://players.cricketstudio.ai/players/robin-minz,wk-batter,left,,Indian,ipl|ipl-historical
+prince-yadav,player,Prince Yadav,https://players.cricketstudio.ai/players/prince-yadav,bowler,right,right arm fast medium,,ipl|ipl-historical
+suyash-sharma,player,Suyash Sharma,https://players.cricketstudio.ai/players/suyash-sharma,bowler,right,legbreak,Indian,ipl|ipl-historical
+prashant-veer,player,Prashant Veer,https://players.cricketstudio.ai/players/prashant-veer,all-rounder,right,slow left arm orthodox,Indian,ipl
+vaibhav-suryavanshi,player,Vaibhav Suryavanshi,https://players.cricketstudio.ai/players/vaibhav-suryavanshi,batter,left,slow left arm orthodox,Indian,ipl|ipl-historical
+aniket-verma,player,Aniket Verma,https://players.cricketstudio.ai/players/aniket-verma,batter,right,right arm fast medium,Indian,ipl|ipl-historical
+ayush-mhatre,player,Ayush Mhatre,https://players.cricketstudio.ai/players/ayush-mhatre,all-rounder,right,right arm offbreak,Indian,ipl|ipl-historical
+kartik-sharma,player,Kartik Sharma,https://players.cricketstudio.ai/players/kartik-sharma,wk-batter,right,,Indian,ipl
+le-plunkett,player,LE Plunkett,https://players.cricketstudio.ai/players/le-plunkett,,,,,mlc
+d-wiese,player,D Wiese,https://players.cricketstudio.ai/players/d-wiese,,,,,mlc
+j-theron,player,J Theron,https://players.cricketstudio.ai/players/j-theron,,,,,mlc
+sunil-narine,player,Sunil Narine,https://players.cricketstudio.ai/players/sunil-narine,bowler,left,right arm offbreak,Indian,ipl|ipl-historical|mlc
+ka-pollard,player,KA Pollard,https://players.cricketstudio.ai/players/ka-pollard,,,,,mlc
+swapnil-singh,player,Swapnil Singh,https://players.cricketstudio.ai/players/swapnil-singh,all-rounder,right,slow left arm orthodox,Indian,ipl-historical
+ravindra-jadeja,player,Ravindra Jadeja,https://players.cricketstudio.ai/players/ravindra-jadeja,all-rounder,left,slow left arm orthodox,,ipl|ipl-historical
+ravi-singh,player,Ravi Singh,https://players.cricketstudio.ai/players/ravi-singh,wk-batter,left,legbreak,Indian,ipl
+virat-kohli,player,Virat Kohli,https://players.cricketstudio.ai/players/virat-kohli,batter,right,right arm fast medium,Indian,ipl|ipl-historical
+wd-parnell,player,WD Parnell,https://players.cricketstudio.ai/players/wd-parnell,,,,,mlc
+mitchell-marsh,player,Mitchell Marsh,https://players.cricketstudio.ai/players/mitchell-marsh,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical
+ad-russell,player,AD Russell,https://players.cricketstudio.ai/players/ad-russell,,,,,mlc
+cj-anderson,player,CJ Anderson,https://players.cricketstudio.ai/players/cj-anderson,,,,,mlc
+trent-boult,player,Trent Boult,https://players.cricketstudio.ai/players/trent-boult,bowler,right,left arm fast medium,Indian,ipl|ipl-historical|mlc
+ajinkya-rahane,player,Ajinkya Rahane,https://players.cricketstudio.ai/players/ajinkya-rahane,batter,right,right arm fast medium,Indian,ipl|ipl-historical
+josh-hazlewood,player,Josh Hazlewood,https://players.cricketstudio.ai/players/josh-hazlewood,bowler,left,right arm fast medium,Indian,ipl|ipl-historical
+manish-pandey,player,Manish Pandey,https://players.cricketstudio.ai/players/manish-pandey,batter,right,right arm fast medium,Indian,ipl|ipl-historical
+sikandar-raza,player,Sikandar Raza,https://players.cricketstudio.ai/players/sikandar-raza,,,,,mlc
+jos-buttler,player,Jos Buttler,https://players.cricketstudio.ai/players/jos-buttler,wk-batter,right,,Indian,ipl|ipl-historical
+david-miller,player,David Miller,https://players.cricketstudio.ai/players/david-miller,batter,left,right arm offbreak,Indian,ipl|ipl-historical|mlc
+marcus-stoinis,player,Marcus Stoinis,https://players.cricketstudio.ai/players/marcus-stoinis,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical|mlc
+gj-maxwell,player,GJ Maxwell,https://players.cricketstudio.ai/players/gj-maxwell,,,,,mlc
+bhuvneshwar-kumar,player,Bhuvneshwar Kumar,https://players.cricketstudio.ai/players/bhuvneshwar-kumar,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+mg-bracewell,player,MG Bracewell,https://players.cricketstudio.ai/players/mg-bracewell,,,,,mlc
+d-pretorius,player,D Pretorius,https://players.cricketstudio.ai/players/d-pretorius,,,,,mlc
+mustafizur-rahman,player,Mustafizur Rahman,https://players.cricketstudio.ai/players/mustafizur-rahman,bowler,left,left arm fast medium,Indian,ipl-historical
+saurabh-dubey,player,Saurabh Dubey,https://players.cricketstudio.ai/players/saurabh-dubey,bowler,right,right arm fast medium,Indian,ipl
+rohit-sharma,player,Rohit Sharma,https://players.cricketstudio.ai/players/rohit-sharma,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+kr-mayers,player,KR Mayers,https://players.cricketstudio.ai/players/kr-mayers,,,,,mlc
+david-payne,player,David Payne,https://players.cricketstudio.ai/players/david-payne,bowler,right,left arm fast medium,Indian,ipl
+shashank-singh,player,Shashank Singh,https://players.cricketstudio.ai/players/shashank-singh,all-rounder,right,right arm offbreak,Indian,ipl|ipl-historical
+quinton-de-kock,player,Quinton de Kock,https://players.cricketstudio.ai/players/quinton-de-kock,wk-batter,left,,Indian,ipl|ipl-historical|mlc
+a-zampa,player,A Zampa,https://players.cricketstudio.ai/players/a-zampa,,,,,mlc
+dj-mitchell,player,DJ Mitchell,https://players.cricketstudio.ai/players/dj-mitchell,,,,,mlc
+arshad-khan,player,Arshad Khan,https://players.cricketstudio.ai/players/arshad-khan,all-rounder,left,left arm fast medium,Indian,ipl
+harshal-patel,player,Harshal Patel,https://players.cricketstudio.ai/players/harshal-patel,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+jaydev-unadkat,player,Jaydev Unadkat,https://players.cricketstudio.ai/players/jaydev-unadkat,bowler,right,left arm fast medium,Indian,ipl|ipl-historical
+jason-holder,player,Jason Holder,https://players.cricketstudio.ai/players/jason-holder,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical|mlc
+karun-nair,player,Karun Nair,https://players.cricketstudio.ai/players/karun-nair,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+liam-livingstone,player,Liam Livingstone,https://players.cricketstudio.ai/players/liam-livingstone,all-rounder,right,legbreak,Indian,ipl|ipl-historical
+lokesh-rahul,player,Lokesh Rahul,https://players.cricketstudio.ai/players/lokesh-rahul,wk-batter,right,,Indian,ipl|ipl-historical
+rahul-tewatia,player,Rahul Tewatia,https://players.cricketstudio.ai/players/rahul-tewatia,all-rounder,left,legbreak,Indian,ipl|ipl-historical
+sanju-samson,player,Sanju Samson,https://players.cricketstudio.ai/players/sanju-samson,wk-batter,right,,Indian,ipl|ipl-historical
+yuzvendra-chahal,player,Yuzvendra Chahal,https://players.cricketstudio.ai/players/yuzvendra-chahal,bowler,right,legbreak googly,,ipl|ipl-historical
+heinrich-klaasen,player,Heinrich Klaasen,https://players.cricketstudio.ai/players/heinrich-klaasen,wk-batter,right,,Indian,ipl|ipl-historical|mlc
+dasun-shanaka,player,Dasun Shanaka,https://players.cricketstudio.ai/players/dasun-shanaka,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical|mlc
+sandeep-sharma,player,Sandeep Sharma,https://players.cricketstudio.ai/players/sandeep-sharma,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+suryakumar-yadav,player,Suryakumar Yadav,https://players.cricketstudio.ai/players/suryakumar-yadav,batter,right,right arm fast medium,Indian,ipl|ipl-historical
+deepak-chahar,player,Deepak Chahar,https://players.cricketstudio.ai/players/deepak-chahar,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+jayant-yadav,player,Jayant Yadav,https://players.cricketstudio.ai/players/jayant-yadav,bowler,right,right arm offbreak,Indian,ipl-historical
+aj-tye,player,AJ Tye,https://players.cricketstudio.ai/players/aj-tye,,,,,mlc
+krunal-pandya,player,Krunal Pandya,https://players.cricketstudio.ai/players/krunal-pandya,all-rounder,left,slow left arm orthodox,Indian,ipl|ipl-historical
+shardul-thakur,player,Shardul Thakur,https://players.cricketstudio.ai/players/shardul-thakur,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+george-linde,player,George Linde,https://players.cricketstudio.ai/players/george-linde,all-rounder,left,slow left arm orthodox,Indian,ipl|mlc
+mohammed-shami,player,Mohammed Shami,https://players.cricketstudio.ai/players/mohammed-shami,bowler,right,right arm fast,Indian,ipl|ipl-historical
+anrich-nortje,player,Anrich Nortje,https://players.cricketstudio.ai/players/anrich-nortje,bowler,right,right arm fast,Indian,ipl|ipl-historical|mlc
+pat-cummins,player,Pat Cummins,https://players.cricketstudio.ai/players/pat-cummins,bowler,right,right arm fast,Indian,ipl|ipl-historical|mlc
+lockie-ferguson,player,Lockie Ferguson,https://players.cricketstudio.ai/players/lockie-ferguson,bowler,right,right arm fast,Indian,ipl|ipl-historical|mlc
+mitchell-santner,player,Mitchell Santner,https://players.cricketstudio.ai/players/mitchell-santner,all-rounder,left,slow left arm orthodox,Indian,ipl|ipl-historical|mlc
+matt-henry,player,Matt Henry,https://players.cricketstudio.ai/players/matt-henry,bowler,right,right arm fast medium,Indian,ipl|ipl-historical|mlc
+jamie-overton,player,Jamie Overton,https://players.cricketstudio.ai/players/jamie-overton,bowler,right,right arm fast,Indian,ipl|ipl-historical
+dj-bravo,player,DJ Bravo,https://players.cricketstudio.ai/players/dj-bravo,,,,,mlc
+travis-head,player,Travis Head,https://players.cricketstudio.ai/players/travis-head,batter,left,right arm offbreak,Indian,ipl|ipl-historical|mlc
+akeal-hosein,player,Akeal Hosein,https://players.cricketstudio.ai/players/akeal-hosein,bowler,left,slow left arm orthodox,Indian,ipl|ipl-historical|mlc
+aj-finch,player,AJ Finch,https://players.cricketstudio.ai/players/aj-finch,,,,,mlc
+lungi-ngidi,player,Lungi Ngidi,https://players.cricketstudio.ai/players/lungi-ngidi,bowler,right,right arm fast,Indian,ipl|ipl-historical|mlc
+jacob-duffy,player,Jacob Duffy,https://players.cricketstudio.ai/players/jacob-duffy,bowler,right,right arm fast medium,Indian,ipl
+kagiso-rabada,player,Kagiso Rabada,https://players.cricketstudio.ai/players/kagiso-rabada,bowler,left,right arm fast,Indian,ipl|ipl-historical|mlc
+dushmantha-chameera,player,Dushmantha Chameera,https://players.cricketstudio.ai/players/dushmantha-chameera,bowler,right,right arm fast,Indian,ipl|ipl-historical
+axar-patel,player,Axar Patel,https://players.cricketstudio.ai/players/axar-patel,all-rounder,left,slow left arm orthodox,Indian,ipl|ipl-historical
+kuldeep-yadav,player,Kuldeep Yadav,https://players.cricketstudio.ai/players/kuldeep-yadav,bowler,left,left arm chinaman,Indian,ipl|ipl-historical
+shakib-al-hasan,player,Shakib Al Hasan,https://players.cricketstudio.ai/players/shakib-al-hasan,,,,,mlc
+corbin-bosch,player,Corbin Bosch,https://players.cricketstudio.ai/players/corbin-bosch,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical
+tristan-stubbs,player,Tristan Stubbs,https://players.cricketstudio.ai/players/tristan-stubbs,wk-batter,right,legbreak,Indian,ipl|ipl-historical
+g-coetzee,player,G Coetzee,https://players.cricketstudio.ai/players/g-coetzee,,,,,mlc
+mc-henriques,player,MC Henriques,https://players.cricketstudio.ai/players/mc-henriques,,,,,mlc
+aiden-markram,player,Aiden Markram,https://players.cricketstudio.ai/players/aiden-markram,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+nicholas-pooran,player,Nicholas Pooran,https://players.cricketstudio.ai/players/nicholas-pooran,wk-batter,left,,Indian,ipl|ipl-historical|mlc
+nitish-rana,player,Nitish Rana,https://players.cricketstudio.ai/players/nitish-rana,batter,left,right arm offbreak,Indian,ipl|ipl-historical
+matthew-short,player,Matthew Short,https://players.cricketstudio.ai/players/matthew-short,all-rounder,right,right arm offbreak,Indian,ipl|ipl-historical|mlc
+ryan-rickelton,player,Ryan Rickelton,https://players.cricketstudio.ai/players/ryan-rickelton,wk-batter,left,,Indian,ipl|ipl-historical|mlc
+hardik-pandya,player,Hardik Pandya,https://players.cricketstudio.ai/players/hardik-pandya,all-rounder,right,right-arm medium-fast,Indian,ipl|ipl-historical
+jasprit-bumrah,player,Jasprit Bumrah,https://players.cricketstudio.ai/players/jasprit-bumrah,bowler,right,right-arm fast,Indian,ipl|ipl-historical
+kyle-jamieson,player,Kyle Jamieson,https://players.cricketstudio.ai/players/kyle-jamieson,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+tim-seifert,player,Tim Seifert,https://players.cricketstudio.ai/players/tim-seifert,wk-batter,right,,Indian,ipl|ipl-historical|mlc
+shreyas-iyer,player,Shreyas Iyer,https://players.cricketstudio.ai/players/shreyas-iyer,batter,right,legbreak googly,Indian,ipl|ipl-historical
+sarfaraz-khan,player,Sarfaraz Khan,https://players.cricketstudio.ai/players/sarfaraz-khan,batter,right,legbreak,Indian,ipl|ipl-historical
+philip-salt,player,Philip Salt,https://players.cricketstudio.ai/players/philip-salt,wk-batter,right,right arm offbreak,Indian,ipl|ipl-historical
+jofra-archer,player,Jofra Archer,https://players.cricketstudio.ai/players/jofra-archer,bowler,right,right arm fast,Indian,ipl|ipl-historical
+fa-allen,player,FA Allen,https://players.cricketstudio.ai/players/fa-allen,,,,,mlc
+shimron-hetmyer,player,Shimron Hetmyer,https://players.cricketstudio.ai/players/shimron-hetmyer,batter,left,,Indian,ipl|ipl-historical|mlc
+romario-shepherd,player,Romario Shepherd,https://players.cricketstudio.ai/players/romario-shepherd,all-rounder,right,right arm fast medium,Indian,ipl|ipl-historical|mlc
+kma-paul,player,KMA Paul,https://players.cricketstudio.ai/players/kma-paul,,,,,mlc
+avesh-khan,player,Avesh Khan,https://players.cricketstudio.ai/players/avesh-khan,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+marco-jansen,player,Marco Jansen,https://players.cricketstudio.ai/players/marco-jansen,all-rounder,right,left arm fast,Indian,ipl|ipl-historical|mlc
+donovan-ferreira,player,Donovan Ferreira,https://players.cricketstudio.ai/players/donovan-ferreira,wk-batter,right,right arm offbreak,Indian,ipl|ipl-historical|mlc
+navdeep-saini,player,Navdeep Saini,https://players.cricketstudio.ai/players/navdeep-saini,bowler,right,right arm fast,Indian,ipl|ipl-historical
+shivam-dube,player,Shivam Dube,https://players.cricketstudio.ai/players/shivam-dube,all-rounder,left,right arm fast medium,Indian,ipl|ipl-historical
+washington-sundar,player,Washington Sundar,https://players.cricketstudio.ai/players/washington-sundar,all-rounder,left,right arm offbreak,Indian,ipl|ipl-historical
+shahrukh-khan,player,Shahrukh Khan,https://players.cricketstudio.ai/players/shahrukh-khan,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+ishan-kishan,player,Ishan Kishan,https://players.cricketstudio.ai/players/ishan-kishan,wk-batter,left,,Indian,ipl|ipl-historical
+jitesh-sharma,player,Jitesh Sharma,https://players.cricketstudio.ai/players/jitesh-sharma,wk-batter,right,,Indian,ipl|ipl-historical
+rinku-singh,player,Rinku Singh,https://players.cricketstudio.ai/players/rinku-singh,batter,left,right arm offbreak,Indian,ipl|ipl-historical
+vishnu-vinod,player,Vishnu Vinod,https://players.cricketstudio.ai/players/vishnu-vinod,wk-batter,right,,Indian,ipl|ipl-historical
+praveen-dubey,player,Praveen Dubey,https://players.cricketstudio.ai/players/praveen-dubey,bowler,right,legbreak googly,Indian,ipl-historical
+vijaykumar-vyshak,player,Vijaykumar Vyshak,https://players.cricketstudio.ai/players/vijaykumar-vyshak,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+kamindu-mendis,player,Kamindu Mendis,https://players.cricketstudio.ai/players/kamindu-mendis,all-rounder,left,right arm offbreak,Indian,ipl-historical
+dilshan-madushanka,player,Dilshan Madushanka,https://players.cricketstudio.ai/players/dilshan-madushanka,bowler,right,left arm fast medium,Indian,ipl
+naveen-ul-haq,player,Naveen-ul-Haq,https://players.cricketstudio.ai/players/naveen-ul-haq,,,,,mlc
+rashid-khan,player,Rashid Khan,https://players.cricketstudio.ai/players/rashid-khan,bowler,right,legbreak googly,Indian,ipl|ipl-historical|mlc
+thangarasu-natarajan,player,Thangarasu Natarajan,https://players.cricketstudio.ai/players/thangarasu-natarajan,bowler,left,left arm fast medium,Indian,ipl|ipl-historical
+himmat-singh,player,Himmat Singh,https://players.cricketstudio.ai/players/himmat-singh,batter,right,right arm offbreak,Indian,ipl
+azmatullah-omarzai,player,Azmatullah Omarzai,https://players.cricketstudio.ai/players/azmatullah-omarzai,all-rounder,right,right-arm fast-medium,Afghan,ipl|ipl-historical
+rovman-powell,player,Rovman Powell,https://players.cricketstudio.ai/players/rovman-powell,batter,right,right arm fast medium,Indian,ipl|ipl-historical|mlc
+tushar-deshpande,player,Tushar Deshpande,https://players.cricketstudio.ai/players/tushar-deshpande,bowler,left,right arm fast medium,Indian,ipl|ipl-historical
+glenn-phillips,player,Glenn Phillips,https://players.cricketstudio.ai/players/glenn-phillips,wk-batter,right,,Indian,ipl|ipl-historical|mlc
+rajat-patidar,player,Rajat Patidar,https://players.cricketstudio.ai/players/rajat-patidar,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+dr-sams,player,DR Sams,https://players.cricketstudio.ai/players/dr-sams,,,,,mlc
+blessing-muzarabani,player,Blessing Muzarabani,https://players.cricketstudio.ai/players/blessing-muzarabani,bowler,right,right arm fast medium,Indian,ipl
+venkatesh-iyer,player,Venkatesh Iyer,https://players.cricketstudio.ai/players/venkatesh-iyer,all-rounder,left,right arm fast medium,Indian,ipl|ipl-historical
+tim-david,player,Tim David,https://players.cricketstudio.ai/players/tim-david,batter,right,right arm offbreak,Indian,ipl|ipl-historical|mlc
+will-jacks,player,Will Jacks,https://players.cricketstudio.ai/players/will-jacks,batter,right,right arm offbreak,Indian,ipl|ipl-historical
+oc-mccoy,player,OC McCoy,https://players.cricketstudio.ai/players/oc-mccoy,,,,,mlc
+sherfane-rutherford,player,Sherfane Rutherford,https://players.cricketstudio.ai/players/sherfane-rutherford,batter,left,right arm fast medium,Indian,ipl|ipl-historical|mlc
+prasidh-krishna,player,Prasidh Krishna,https://players.cricketstudio.ai/players/prasidh-krishna,bowler,right,right arm fast medium,Indian,ipl|ipl-historical
+mohsin-khan,player,Mohsin Khan,https://players.cricketstudio.ai/players/mohsin-khan,bowler,left,left arm fast medium,Indian,ipl
+mukesh-kumar,player,Mukesh Kumar,https://players.cricketstudio.ai/players/mukesh-kumar,bowler,,,Indian,ipl|ipl-historical
+j-little,player,J Little,https://players.cricketstudio.ai/players/j-little,,,,,mlc
+rishabh-pant,player,Rishabh Pant,https://players.cricketstudio.ai/players/rishabh-pant,wk-batter,left,,Indian,ipl|ipl-historical
+mohammed-siraj,player,Mohammed Siraj,https://players.cricketstudio.ai/players/mohammed-siraj,bowler,right,right-arm fast-medium,Indian,ipl|ipl-historical
+zeeshan-ansari,player,Zeeshan Ansari,https://players.cricketstudio.ai/players/zeeshan-ansari,bowler,right,legbreak googly,Indian,ipl-historical
+khaleel-ahmed,player,Khaleel Ahmed,https://players.cricketstudio.ai/players/khaleel-ahmed,bowler,right,left arm fast medium,Indian,ipl|ipl-historical
+finn-allen,player,Finn Allen,https://players.cricketstudio.ai/players/finn-allen,batter,right,,Indian,ipl|mlc
+nandre-burger,player,Nandre Burger,https://players.cricketstudio.ai/players/nandre-burger,bowler,left,left arm fast medium,Indian,ipl|ipl-historical|mlc
+abhinandan-singh,player,Abhinandan Singh,https://players.cricketstudio.ai/players/abhinandan-singh,bowler,right,right arm fast medium,,ipl
+adam-milne,player,Adam Milne,https://players.cricketstudio.ai/players/adam-milne,bowler,right,right arm fast,Indian,ipl|mlc
+akash-maharaj-singh,player,Akash Maharaj Singh,https://players.cricketstudio.ai/players/akash-maharaj-singh,bowler,right,right-arm medium,Indian,ipl
+am-ghazanfar,player,AM Ghazanfar,https://players.cricketstudio.ai/players/am-ghazanfar,bowler,right,right arm offbreak,,ipl
+anukul-roy,player,Anukul Roy,https://players.cricketstudio.ai/players/anukul-roy,bowler,left,slow left arm orthodox,,ipl
+arshin-kulkarni,player,Arshin Kulkarni,https://players.cricketstudio.ai/players/arshin-kulkarni,all-rounder,right,right arm fast medium,Indian,ipl
+ben-dwarshuis,player,Ben Dwarshuis,https://players.cricketstudio.ai/players/ben-dwarshuis,bowler,left,left-arm fast-medium,Australian,ipl
+brijesh-sharma,player,Brijesh Sharma,https://players.cricketstudio.ai/players/brijesh-sharma,bowler,right,right arm fast medium,,ipl
+danish-malewar,player,Danish Malewar,https://players.cricketstudio.ai/players/danish-malewar,batter,right,legbreak,Indian,ipl
+digvesh-rathi,player,Digvesh Rathi,https://players.cricketstudio.ai/players/digvesh-rathi,bowler,right,right arm offbreak,,ipl
+ishant-sharma,player,Ishant Sharma,https://players.cricketstudio.ai/players/ishant-sharma,bowler,right,right arm fast medium,Indian,
+josh-inglis,player,Josh Inglis,https://players.cricketstudio.ai/players/josh-inglis,wk-batter,right,,Australian,ipl|mlc
+krish-bhagat,player,Krish Bhagat,https://players.cricketstudio.ai/players/krish-bhagat,bowler,right,right arm fast medium,,ipl
+kuldeep-sen,player,Kuldeep Sen,https://players.cricketstudio.ai/players/kuldeep-sen,bowler,right,right arm fast medium,Indian,
+kwena-maphaka,player,Kwena Maphaka,https://players.cricketstudio.ai/players/kwena-maphaka,bowler,left,left arm fast medium,Indian,
+lhuan-dre-pretorius,player,Lhuan-dre Pretorius,https://players.cricketstudio.ai/players/lhuan-dre-pretorius,wk-batter,left,,Indian,ipl
+luke-wood,player,Luke Wood,https://players.cricketstudio.ai/players/luke-wood,all-rounder,left,left arm fast medium,Indian,
+madhav-tiwari,player,Madhav Tiwari,https://players.cricketstudio.ai/players/madhav-tiwari,all-rounder,right,right-arm fast-medium,Indian,ipl
+matheesha-pathirana,player,Matheesha Pathirana,https://players.cricketstudio.ai/players/matheesha-pathirana,bowler,right,right arm fast medium,Indian,ipl
+mitchell-starc,player,Mitchell Starc,https://players.cricketstudio.ai/players/mitchell-starc,bowler,left,left arm fast,,ipl
+mukul-dchoudhary,player,Mukul DChoudhary,https://players.cricketstudio.ai/players/mukul-dchoudhary,batter,right,,,ipl
+nuwan-thushara,player,Nuwan Thushara,https://players.cricketstudio.ai/players/nuwan-thushara,bowler,right,right arm fast medium,Indian,
+praful-hinge,player,Praful Hinge,https://players.cricketstudio.ai/players/praful-hinge,bowler,right,right arm fast medium,,ipl
+ramakrishna-ghosh,player,Ramakrishna Ghosh,https://players.cricketstudio.ai/players/ramakrishna-ghosh,bowler,right,right arm fast medium,,ipl
+rasikh-salam-dar,player,Rasikh Salam Dar,https://players.cricketstudio.ai/players/rasikh-salam-dar,bowler,right,right arm fast medium,,ipl
+ravichandran-smaran,player,Ravichandran Smaran,https://players.cricketstudio.ai/players/ravichandran-smaran,batter,left,right arm offbreak,Indian,ipl
+sahil-parakh,player,Sahil Parakh,https://players.cricketstudio.ai/players/sahil-parakh,bowler,left,legbreak,Indian,ipl
+sai-kishore,player,Sai Kishore,https://players.cricketstudio.ai/players/sai-kishore,bowler,left,slow left arm orthodox,Indian,ipl
+salil-arora,player,Salil Arora,https://players.cricketstudio.ai/players/salil-arora,batter,right,,,ipl
+shivang-kumar,player,Shivang Kumar,https://players.cricketstudio.ai/players/shivang-kumar,bowler,right,slow left arm orthodox,,ipl
+shreyas-gopal,player,Shreyas Gopal,https://players.cricketstudio.ai/players/shreyas-gopal,all-rounder,right,legbreak,Indian,
+spencer-johnson,player,Spencer Johnson,https://players.cricketstudio.ai/players/spencer-johnson,bowler,left,left-arm fast,Australian,ipl|mlc
+tejasvi-dahiya,player,Tejasvi Dahiya,https://players.cricketstudio.ai/players/tejasvi-dahiya,wk-batter,right,,Indian,ipl
+tripurana-vijay,player,Tripurana Vijay,https://players.cricketstudio.ai/players/tripurana-vijay,all-rounder,right,right arm offbreak,Indian,ipl
+varun-chakaravarthy,player,Varun Chakaravarthy,https://players.cricketstudio.ai/players/varun-chakaravarthy,bowler,right,legbreak googly,,ipl
+vignesh-puthur,player,Vignesh Puthur,https://players.cricketstudio.ai/players/vignesh-puthur,all-rounder,,,Indian,
+vipraj-nigam,player,Vipraj Nigam,https://players.cricketstudio.ai/players/vipraj-nigam,bowler,right,legbreak,,ipl
+yash-raj-punja,player,Yash Raj Punja,https://players.cricketstudio.ai/players/yash-raj-punja,bowler,left,,,ipl
